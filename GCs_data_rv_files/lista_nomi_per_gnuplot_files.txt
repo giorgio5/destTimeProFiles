@@ -152,4 +152,3 @@
  Ter_12                  
  Ton_2                   
  UKS_1                   
- VVV-CL001               
