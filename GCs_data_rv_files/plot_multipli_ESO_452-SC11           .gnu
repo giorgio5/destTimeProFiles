@@ -2,7 +2,7 @@
  set output 'multi_graph_ESO_452-SC11           .png'
  set logscale y
  set style data linespoints
- set title 'Time of destabilization in the ESO_452-SC11            vs distance from center'
+ set title 'Time of destabilization in the ESO 452-SC11 vs distance from center'
  set xlabel 'r (pc)'
  set ylabel 'time (year)'
  plot "profile_ESO_452-SC11           _1.ris" using 1:2 title "M_{test}=0.1",           \

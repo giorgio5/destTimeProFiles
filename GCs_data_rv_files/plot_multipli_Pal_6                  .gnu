@@ -2,7 +2,7 @@
  set output 'multi_graph_Pal_6                  .png'
  set logscale y
  set style data linespoints
- set title 'Time of destabilization in the Pal_6                   vs distance from center'
+ set title 'Time of destabilization in the Pal 6 vs distance from center'
  set xlabel 'r (pc)'
  set ylabel 'time (year)'
  plot "profile_Pal_6                  _1.ris" using 1:2 title "M_{test}=0.1",           \

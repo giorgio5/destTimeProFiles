@@ -2,7 +2,7 @@
  set output 'multi_graph_Djor_1                 .png'
  set logscale y
  set style data linespoints
- set title 'Time of destabilization in the Djor_1                  vs distance from center'
+ set title 'Time of destabilization in the Djor 1 vs distance from center'
  set xlabel 'r (pc)'
  set ylabel 'time (year)'
  plot "profile_Djor_1                 _1.ris" using 1:2 title "M_{test}=0.1",           \

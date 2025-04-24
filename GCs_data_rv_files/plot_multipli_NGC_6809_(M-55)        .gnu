@@ -2,7 +2,7 @@
  set output 'multi_graph_NGC_6809_(M-55)        .png'
  set logscale y
  set style data linespoints
- set title 'Time of destabilization in the NGC_6809_(M-55)         vs distance from center'
+ set title 'Time of destabilization in the NGC 6809 (M-55) vs distance from center'
  set xlabel 'r (pc)'
  set ylabel 'time (year)'
  plot "profile_NGC_6809_(M-55)        _1.ris" using 1:2 title "M_{test}=0.1",           \

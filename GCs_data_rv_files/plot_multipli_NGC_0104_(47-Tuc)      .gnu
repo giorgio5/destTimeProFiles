@@ -2,7 +2,7 @@
  set output 'multi_graph_NGC_0104_(47-Tuc)      .png'
  set logscale y
  set style data linespoints
- set title 'Time of destabilization in the NGC_0104_(47-Tuc)       vs distance from center'
+ set title 'Time of destabilization in the NGC 0104 (47-Tuc) vs distance from center'
  set xlabel 'r (pc)'
  set ylabel 'time (year)'
  plot "profile_NGC_0104_(47-Tuc)      _1.ris" using 1:2 title "M_{test}=0.1",           \

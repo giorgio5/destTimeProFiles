@@ -2,7 +2,7 @@
  set output 'multi_graph_Lynga_7                .png'
  set logscale y
  set style data linespoints
- set title 'Time of destabilization in the Lynga_7                 vs distance from center'
+ set title 'Time of destabilization in the Lynga 7 vs distance from center'
  set xlabel 'r (pc)'
  set ylabel 'time (year)'
  plot "profile_Lynga_7                _1.ris" using 1:2 title "M_{test}=0.1",           \
