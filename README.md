@@ -1,0 +1,3 @@
+This collection of files are taken from a database protected by a copyright, when the work will be completed, the authors of all the references, also the author of this database will be mentioned in the article. Until then the privacy will be protected on the github repository. This is a collection of files taken from https://people.smp.uq.edu.au/HolgerBaumgardt/globular/veldis.html with modified fields and name in order to be processed by a fortran77 script for a calculus of the time of destabilization for a eart-like planet for SETI searching and speculation in the globular clusters, just like https://github.com/giorgio5/destTimeGCs repo but more complete for the r,v profiles. In fieri...
+
+Giorgio Barone - Unisalento - Lecce - Italy giorgio.barone@unisalento.it
