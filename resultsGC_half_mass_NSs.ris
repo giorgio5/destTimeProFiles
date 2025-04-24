@@ -1,0 +1,1829 @@
+ # result of dest_time(yr) for core and NS
+ # m_test(sm), dets_time_core, dest_time_NS
+ #
+ # for the cluster:2MASS-GC01              
+ # for half mass radius calculus of time in year
+ #
+ #   33027353116934.777     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.2278997802933197E+018
+ #
+2MASS-GC01              0.10     3.30E+13     3.23E+18
+ # for the cluster:2MASS-GC02              
+ # for half mass radius calculus of time in year
+ #
+ #   7234818778616.5811     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.5296186646500608E+017
+ #
+2MASS-GC02              0.10     7.23E+12     4.53E+17
+ # for the cluster:AM_1                    
+ # for half mass radius calculus of time in year
+ #
+ #   1465569948145037.5     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.1742320556385042E+020
+ #
+AM_1                    0.10     1.47E+15     2.17E+20
+ # for the cluster:AM_4                    
+ # for half mass radius calculus of time in year
+ #
+ #   1682746723228227.0     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.4750549644100696E+020
+ #
+AM_4                    0.10     1.68E+15     1.48E+20
+ # for the cluster:Arp_2                   
+ # for half mass radius calculus of time in year
+ #
+ #   818590275624836.75     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.5073045882101796E+020
+ #
+Arp_2                   0.10     8.19E+14     1.51E+20
+ # for the cluster:BH_140                  
+ # for half mass radius calculus of time in year
+ #
+ #   94127532080296.250     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.4007287134078890E+019
+ #
+BH_140                  0.10     9.41E+13     1.40E+19
+ # for the cluster:BH_261_(AL-3)           
+ # for half mass radius calculus of time in year
+ #
+ #   27007244132212.590     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0942053449325414E+018
+ #
+BH_261_(AL-3)           0.10     2.70E+13     1.09E+18
+ # for the cluster:Crater                  
+ # for half mass radius calculus of time in year
+ #
+ #   4269112946391394.5     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.5064227792803935E+020
+ #
+Crater                  0.10     4.27E+15     7.51E+20
+ # for the cluster:Djor_1                  
+ # for half mass radius calculus of time in year
+ #
+ #   26322973498845.910     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.2672353554054052E+018
+ #
+Djor_1                  0.10     2.63E+13     1.27E+18
+ # for the cluster:Djor_2_(ESO-456-SC38)   
+ # for half mass radius calculus of time in year
+ #
+ #   30260222247078.609     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.6145441400804329E+018
+ #
+Djor_2_(ESO-456-SC38)   0.10     3.03E+13     1.61E+18
+ # for the cluster:E_3                     
+ # for half mass radius calculus of time in year
+ #
+ #   130526556262186.55     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.7474109521733939E+018
+ #
+E_3                     0.10     1.31E+14     7.75E+18
+ # for the cluster:Eridanus                
+ # for half mass radius calculus of time in year
+ #
+ #   1712481395704617.2     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.5044774942382919E+020
+ #
+Eridanus                0.10     1.71E+15     2.50E+20
+ # for the cluster:ESO_280-SC06            
+ # for half mass radius calculus of time in year
+ #
+ #   111822651705752.69     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.7677419144538268E+019
+ #
+ESO_280-SC06            0.10     1.12E+14     1.77E+19
+ # for the cluster:ESO_452-SC11            
+ # for half mass radius calculus of time in year
+ #
+ #   14999177682260.373     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0719405022029582E+018
+ #
+ESO_452-SC11            0.10     1.50E+13     1.07E+18
+ # for the cluster:FSR_1716                
+ # for half mass radius calculus of time in year
+ #
+ #   20344693651045.168     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.7534755556403436E+018
+ #
+FSR_1716                0.10     2.03E+13     1.75E+18
+ # for the cluster:FSR_1735                
+ # for half mass radius calculus of time in year
+ #
+ #   3953997658151.9966     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   83222441493163504.     
+ #
+FSR_1735                0.10     3.95E+12     8.32E+16
+ # for the cluster:FSR_1758                
+ # for half mass radius calculus of time in year
+ #
+ #   143647924812581.66     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.3217662510248657E+019
+ #
+FSR_1758                0.10     1.44E+14     2.32E+19
+ # for the cluster:Gran_1_(ESO-456-SC29)   
+ # for half mass radius calculus of time in year
+ #
+ #   78001842491677.328     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0615201537790994E+019
+ #
+Gran_1_(ESO-456-SC29)   0.10     7.80E+13     1.06E+19
+ # for the cluster:Gran_2                  
+ # for half mass radius calculus of time in year
+ #
+ #   207137429423876.88     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.7636358111338291E+019
+ #
+Gran_2                  0.10     2.07E+14     3.76E+19
+ # for the cluster:Gran_3_(Patchick-125)   
+ # for half mass radius calculus of time in year
+ #
+ #   136560851221904.75     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.1033902687064232E+019
+ #
+Gran_3_(Patchick-125)   0.10     1.37E+14     2.10E+19
+ # for the cluster:Gran_5                  
+ # for half mass radius calculus of time in year
+ #
+ #   3156687752521.8828     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.5301227248093853E+017
+ #
+Gran_5                  0.10     3.16E+12     1.53E+17
+ # for the cluster:HP_1                    
+ # for half mass radius calculus of time in year
+ #
+ #   9488102404363.8066     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.6941631296218189E+017
+ #
+HP_1                    0.10     9.49E+12     3.69E+17
+ # for the cluster:IC_1257                 
+ # for half mass radius calculus of time in year
+ #
+ #   38502023765348.656     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.9978619663068749E+018
+ #
+IC_1257                 0.10     3.85E+13     4.00E+18
+ # for the cluster:IC_1276                 
+ # for half mass radius calculus of time in year
+ #
+ #   14721388093601.365     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3371939071535150E+018
+ #
+IC_1276                 0.10     1.47E+13     1.34E+18
+ # for the cluster:IC_4499                 
+ # for half mass radius calculus of time in year
+ #
+ #   212817166834861.62     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.2013128829735301E+019
+ #
+IC_4499                 0.10     2.13E+14     3.20E+19
+ # for the cluster:Laevens_3               
+ # for half mass radius calculus of time in year
+ #
+ #   450103417236144.81     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.2144417286624379E+019
+ #
+Laevens_3               0.10     4.50E+14     7.21E+19
+ # for the cluster:Liller_1                
+ # for half mass radius calculus of time in year
+ #
+ #   506745440779.95935     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   30189531432353636.     
+ #
+Liller_1                0.10     5.07E+11     3.02E+16
+ # for the cluster:Lynga_7                 
+ # for half mass radius calculus of time in year
+ #
+ #   19000271389443.008     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0824272465457642E+018
+ #
+Lynga_7                 0.10     1.90E+13     1.08E+18
+ # for the cluster:NGC_0104_(47-Tuc)       
+ # for half mass radius calculus of time in year
+ #
+ #   9741869110943.2969     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.2233241204048474E+017
+ #
+NGC_0104_(47-Tuc)       0.10     9.74E+12     7.22E+17
+ # for the cluster:NGC_0288                
+ # for half mass radius calculus of time in year
+ #
+ #   62811538532665.023     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.9916475673305917E+018
+ #
+NGC_0288                0.10     6.28E+13     5.99E+18
+ # for the cluster:NGC_0362                
+ # for half mass radius calculus of time in year
+ #
+ #   3664718771169.6743     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3633214975888867E+017
+ #
+NGC_0362                0.10     3.66E+12     1.36E+17
+ # for the cluster:NGC_1261                
+ # for half mass radius calculus of time in year
+ #
+ #   11736078172111.514     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.8421929164085427E+017
+ #
+NGC_1261                0.10     1.17E+13     5.84E+17
+ # for the cluster:NGC_1851                
+ # for half mass radius calculus of time in year
+ #
+ #   2870781379688.4629     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0677932997085298E+017
+ #
+NGC_1851                0.10     2.87E+12     1.07E+17
+ # for the cluster:NGC_1904_(M-79)         
+ # for half mass radius calculus of time in year
+ #
+ #   9173437453462.8984     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.4718608760914643E+017
+ #
+NGC_1904_(M-79)         0.10     9.17E+12     3.47E+17
+ # for the cluster:NGC_2298                
+ # for half mass radius calculus of time in year
+ #
+ #   6898005488997.7969     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9137287808551110E+017
+ #
+NGC_2298                0.10     6.90E+12     2.91E+17
+ # for the cluster:NGC_2419                
+ # for half mass radius calculus of time in year
+ #
+ #   395242740787256.44     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   9.6634420333515899E+019
+ #
+NGC_2419                0.10     3.95E+14     9.66E+19
+ # for the cluster:NGC_2808                
+ # for half mass radius calculus of time in year
+ #
+ #   2433460818674.1631     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.1627780242833909E+017
+ #
+NGC_2808                0.10     2.43E+12     1.16E+17
+ # for the cluster:NGC_3201                
+ # for half mass radius calculus of time in year
+ #
+ #   46092515968780.977     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.3781070200848630E+018
+ #
+NGC_3201                0.10     4.61E+13     4.38E+18
+ # for the cluster:NGC_4147                
+ # for half mass radius calculus of time in year
+ #
+ #   8772931085354.5176     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.1314161537845702E+017
+ #
+NGC_4147                0.10     8.77E+12     4.13E+17
+ # for the cluster:NGC_4372                
+ # for half mass radius calculus of time in year
+ #
+ #   39654521843618.211     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.1424738213868283E+018
+ #
+NGC_4372                0.10     3.97E+13     4.14E+18
+ # for the cluster:NGC_4590_(M-68)         
+ # for half mass radius calculus of time in year
+ #
+ #   35604719405324.148     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9755598825303199E+018
+ #
+NGC_4590_(M-68)         0.10     3.56E+13     2.98E+18
+ # for the cluster:NGC_4833                
+ # for half mass radius calculus of time in year
+ #
+ #   8823265605525.0059     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.1248622715533152E+017
+ #
+NGC_4833                0.10     8.82E+12     5.12E+17
+ # for the cluster:NGC_5024_(M-53)         
+ # for half mass radius calculus of time in year
+ #
+ #   40219551451697.867     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.5024344311928899E+018
+ #
+NGC_5024_(M-53)         0.10     4.02E+13     4.50E+18
+ # for the cluster:NGC_5053                
+ # for half mass radius calculus of time in year
+ #
+ #   434454834949057.06     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   8.1859110593833599E+019
+ #
+NGC_5053                0.10     4.34E+14     8.19E+19
+ # for the cluster:NGC_5139_(omega-Cen)    
+ # for half mass radius calculus of time in year
+ #
+ #   12427508991648.277     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9187624376739430E+018
+ #
+NGC_5139_(omega-Cen)    0.10     1.24E+13     1.92E+18
+ # for the cluster:NGC_5272_(M-3)          
+ # for half mass radius calculus of time in year
+ #
+ #   9175612896670.0312     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.3366603334240832E+017
+ #
+NGC_5272_(M-3)          0.10     9.18E+12     6.34E+17
+ # for the cluster:NGC_5286                
+ # for half mass radius calculus of time in year
+ #
+ #   3213744144128.8022     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3122565447931102E+017
+ #
+NGC_5286                0.10     3.21E+12     1.31E+17
+ # for the cluster:NGC_5466                
+ # for half mass radius calculus of time in year
+ #
+ #   263901808706819.25     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.2443414440989524E+019
+ #
+NGC_5466                0.10     2.64E+14     4.24E+19
+ # for the cluster:NGC_5634                
+ # for half mass radius calculus of time in year
+ #
+ #   26579213368898.312     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9972412970302131E+018
+ #
+NGC_5634                0.10     2.66E+13     3.00E+18
+ # for the cluster:NGC_5694                
+ # for half mass radius calculus of time in year
+ #
+ #   7717168226762.7559     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.7907670722608662E+017
+ #
+NGC_5694                0.10     7.72E+12     2.79E+17
+ # for the cluster:NGC_5824                
+ # for half mass radius calculus of time in year
+ #
+ #   11475614592454.402     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.0173612758552678E+017
+ #
+NGC_5824                0.10     1.15E+13     6.02E+17
+ # for the cluster:NGC_5897                
+ # for half mass radius calculus of time in year
+ #
+ #   86971892459034.984     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0595223612351803E+019
+ #
+NGC_5897                0.10     8.70E+13     1.06E+19
+ # for the cluster:NGC_5904_(M-5)          
+ # for half mass radius calculus of time in year
+ #
+ #   9971408572278.9941     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.0271868423529920E+017
+ #
+NGC_5904_(M-5)          0.10     9.97E+12     7.03E+17
+ # for the cluster:NGC_5927                
+ # for half mass radius calculus of time in year
+ #
+ #   15669002859277.781     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   8.1542895258925542E+017
+ #
+NGC_5927                0.10     1.57E+13     8.15E+17
+ # for the cluster:NGC_5946                
+ # for half mass radius calculus of time in year
+ #
+ #   4014989708914.3262     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   99176154933496400.     
+ #
+NGC_5946                0.10     4.01E+12     9.92E+16
+ # for the cluster:NGC_5986                
+ # for half mass radius calculus of time in year
+ #
+ #   6587985222134.6211     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.0060069481473440E+017
+ #
+NGC_5986                0.10     6.59E+12     3.01E+17
+ # for the cluster:NGC_6093_(M-80)         
+ # for half mass radius calculus of time in year
+ #
+ #   1902337506657.3064     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   71454380862044552.     
+ #
+NGC_6093_(M-80)         0.10     1.90E+12     7.15E+16
+ # for the cluster:NGC_6101                
+ # for half mass radius calculus of time in year
+ #
+ #   155937897300145.69     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.4125071506496090E+019
+ #
+NGC_6101                0.10     1.56E+14     2.41E+19
+ # for the cluster:NGC_6121_(M-4)          
+ # for half mass radius calculus of time in year
+ #
+ #   10047344749890.352     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.7476547352301606E+017
+ #
+NGC_6121_(M-4)          0.10     1.00E+13     3.75E+17
+ # for the cluster:NGC_6139                
+ # for half mass radius calculus of time in year
+ #
+ #   1535726180533.4758     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   35902140918929196.     
+ #
+NGC_6139                0.10     1.54E+12     3.59E+16
+ # for the cluster:NGC_6144                
+ # for half mass radius calculus of time in year
+ #
+ #   17133574838998.646     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   9.5287909419132237E+017
+ #
+NGC_6144                0.10     1.71E+13     9.53E+17
+ # for the cluster:NGC_6171_(M-107)        
+ # for half mass radius calculus of time in year
+ #
+ #   9299709850680.2832     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.3145357892719827E+017
+ #
+NGC_6171_(M-107)        0.10     9.30E+12     4.31E+17
+ # for the cluster:NGC_6205_(M-13)         
+ # for half mass radius calculus of time in year
+ #
+ #   7556291448883.6729     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.7677403142216813E+017
+ #
+NGC_6205_(M-13)         0.10     7.56E+12     4.77E+17
+ # for the cluster:NGC_6218_(M-12)         
+ # for half mass radius calculus of time in year
+ #
+ #   8730386533919.2754     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.6006921954379398E+017
+ #
+NGC_6218_(M-12)         0.10     8.73E+12     4.60E+17
+ # for the cluster:NGC_6229                
+ # for half mass radius calculus of time in year
+ #
+ #   10573807936534.188     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.0148432816085517E+017
+ #
+NGC_6229                0.10     1.06E+13     4.01E+17
+ # for the cluster:NGC_6235                
+ # for half mass radius calculus of time in year
+ #
+ #   14605917524192.826     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.1421602543056756E+018
+ #
+NGC_6235                0.10     1.46E+13     1.14E+18
+ # for the cluster:NGC_6254_(M-10)         
+ # for half mass radius calculus of time in year
+ #
+ #   9714262348159.5352     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.6880469368330323E+017
+ #
+NGC_6254_(M-10)         0.10     9.71E+12     5.69E+17
+ # for the cluster:NGC_6256                
+ # for half mass radius calculus of time in year
+ #
+ #   10717273670501.580     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.1730454869456557E+017
+ #
+NGC_6256                0.10     1.07E+13     4.17E+17
+ # for the cluster:NGC_6266_(M-62)         
+ # for half mass radius calculus of time in year
+ #
+ #   1712095336760.6113     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   47631631545866672.     
+ #
+NGC_6266_(M-62)         0.10     1.71E+12     4.76E+16
+ # for the cluster:NGC_6273_(M-19)         
+ # for half mass radius calculus of time in year
+ #
+ #   4968169997724.1279     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.4742120589394112E+017
+ #
+NGC_6273_(M-19)         0.10     4.97E+12     2.47E+17
+ # for the cluster:NGC_6284                
+ # for half mass radius calculus of time in year
+ #
+ #   7548844073034.7051     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9229010121512640E+017
+ #
+NGC_6284                0.10     7.55E+12     2.92E+17
+ # for the cluster:NGC_6287                
+ # for half mass radius calculus of time in year
+ #
+ #   3292213830803.3413     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0297846962272442E+017
+ #
+NGC_6287                0.10     3.29E+12     1.03E+17
+ # for the cluster:NGC_6293                
+ # for half mass radius calculus of time in year
+ #
+ #   4096115489308.2646     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.6110803015664288E+017
+ #
+NGC_6293                0.10     4.10E+12     1.61E+17
+ # for the cluster:NGC_6304                
+ # for half mass radius calculus of time in year
+ #
+ #   5094340149465.0107     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3499720888730419E+017
+ #
+NGC_6304                0.10     5.09E+12     1.35E+17
+ # for the cluster:NGC_6316                
+ # for half mass radius calculus of time in year
+ #
+ #   15895253557952.225     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.8387473688239949E+017
+ #
+NGC_6316                0.10     1.59E+13     7.84E+17
+ # for the cluster:NGC_6325                
+ # for half mass radius calculus of time in year
+ #
+ #   3484964264436.3301     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   74946357272714608.     
+ #
+NGC_6325                0.10     3.48E+12     7.49E+16
+ # for the cluster:NGC_6333_(M-9)          
+ # for half mass radius calculus of time in year
+ #
+ #   4520350634925.4863     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9145783300960454E+017
+ #
+NGC_6333_(M-9)          0.10     4.52E+12     1.91E+17
+ # for the cluster:NGC_6341_(M-92)         
+ # for half mass radius calculus of time in year
+ #
+ #   3867551872554.0820     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.8036769034720992E+017
+ #
+NGC_6341_(M-92)         0.10     3.87E+12     1.80E+17
+ # for the cluster:NGC_6342                
+ # for half mass radius calculus of time in year
+ #
+ #   2296549976407.7017     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   43275072527898840.     
+ #
+NGC_6342                0.10     2.30E+12     4.33E+16
+ # for the cluster:NGC_6352                
+ # for half mass radius calculus of time in year
+ #
+ #   18456424220389.945     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0147272578780620E+018
+ #
+NGC_6352                0.10     1.85E+13     1.01E+18
+ # for the cluster:NGC_6355                
+ # for half mass radius calculus of time in year
+ #
+ #   6408338132748.3281     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9393326558600010E+017
+ #
+NGC_6355                0.10     6.41E+12     1.94E+17
+ # for the cluster:NGC_6356                
+ # for half mass radius calculus of time in year
+ #
+ #   17159444109339.984     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9907358532484413E+018
+ #
+NGC_6356                0.10     1.72E+13     1.99E+18
+ # for the cluster:NGC_6362                
+ # for half mass radius calculus of time in year
+ #
+ #   36000904977124.344     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.1605196184858081E+018
+ #
+NGC_6362                0.10     3.60E+13     3.16E+18
+ # for the cluster:NGC_6366                
+ # for half mass radius calculus of time in year
+ #
+ #   47175995440340.562     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.8949328938775660E+018
+ #
+NGC_6366                0.10     4.72E+13     2.89E+18
+ # for the cluster:NGC_6380                
+ # for half mass radius calculus of time in year
+ #
+ #   6987500270436.3809     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.6527147651868394E+017
+ #
+NGC_6380                0.10     6.99E+12     2.65E+17
+ # for the cluster:NGC_6388                
+ # for half mass radius calculus of time in year
+ #
+ #   4982675527101.8975     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.8109353431413670E+017
+ #
+NGC_6388                0.10     4.98E+12     2.81E+17
+ # for the cluster:NGC_6397                
+ # for half mass radius calculus of time in year
+ #
+ #   5625613594182.9873     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9506851290085795E+017
+ #
+NGC_6397                0.10     5.63E+12     1.95E+17
+ # for the cluster:NGC_6401                
+ # for half mass radius calculus of time in year
+ #
+ #   4850663320464.1855     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.5401362869785184E+017
+ #
+NGC_6401                0.10     4.85E+12     1.54E+17
+ # for the cluster:NGC_6402_(M-14)         
+ # for half mass radius calculus of time in year
+ #
+ #   6257850787218.4775     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.1921128648922458E+017
+ #
+NGC_6402_(M-14)         0.10     6.26E+12     3.19E+17
+ # for the cluster:NGC_6426                
+ # for half mass radius calculus of time in year
+ #
+ #   58669411105249.531     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.1446838559202601E+018
+ #
+NGC_6426                0.10     5.87E+13     5.14E+18
+ # for the cluster:NGC_6440                
+ # for half mass radius calculus of time in year
+ #
+ #   1581717846698.9739     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   41551506857560824.     
+ #
+NGC_6440                0.10     1.58E+12     4.16E+16
+ # for the cluster:NGC_6441                
+ # for half mass radius calculus of time in year
+ #
+ #   2665310454146.8574     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.2380313227676059E+017
+ #
+NGC_6441                0.10     2.67E+12     1.24E+17
+ # for the cluster:NGC_6453                
+ # for half mass radius calculus of time in year
+ #
+ #   6825851254849.5264     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.5929407814471776E+017
+ #
+NGC_6453                0.10     6.83E+12     2.59E+17
+ # for the cluster:NGC_6496                
+ # for half mass radius calculus of time in year
+ #
+ #   43878427336380.742     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.3378943367572966E+018
+ #
+NGC_6496                0.10     4.39E+13     3.34E+18
+ # for the cluster:NGC_6517                
+ # for half mass radius calculus of time in year
+ #
+ #   2985183920048.4341     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   75336405345419024.     
+ #
+NGC_6517                0.10     2.99E+12     7.53E+16
+ # for the cluster:NGC_6522                
+ # for half mass radius calculus of time in year
+ #
+ #   3476796826949.2134     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.1481357143858976E+017
+ #
+NGC_6522                0.10     3.48E+12     1.15E+17
+ # for the cluster:NGC_6528                
+ # for half mass radius calculus of time in year
+ #
+ #   18793547121346.969     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   7.9123247832733798E+017
+ #
+NGC_6528                0.10     1.88E+13     7.91E+17
+ # for the cluster:NGC_6535                
+ # for half mass radius calculus of time in year
+ #
+ #   12926200840730.826     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.9872980348977766E+017
+ #
+NGC_6535                0.10     1.29E+13     5.99E+17
+ # for the cluster:NGC_6539                
+ # for half mass radius calculus of time in year
+ #
+ #   13555836106205.811     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.6079431667797395E+017
+ #
+NGC_6539                0.10     1.36E+13     5.61E+17
+ # for the cluster:NGC_6540                
+ # for half mass radius calculus of time in year
+ #
+ #   16553626378252.098     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   8.0768129527223373E+017
+ #
+NGC_6540                0.10     1.66E+13     8.08E+17
+ # for the cluster:NGC_6541                
+ # for half mass radius calculus of time in year
+ #
+ #   4651955544460.6973     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.2891821496570266E+017
+ #
+NGC_6541                0.10     4.65E+12     2.29E+17
+ # for the cluster:NGC_6544                
+ # for half mass radius calculus of time in year
+ #
+ #   2483986813415.4639     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   55658779724773624.     
+ #
+NGC_6544                0.10     2.48E+12     5.57E+16
+ # for the cluster:NGC_6553                
+ # for half mass radius calculus of time in year
+ #
+ #   2917127282119.5566     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   72284597562384272.     
+ #
+NGC_6553                0.10     2.92E+12     7.23E+16
+ # for the cluster:NGC_6558                
+ # for half mass radius calculus of time in year
+ #
+ #   2687618697041.4683     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   62137873010537808.     
+ #
+NGC_6558                0.10     2.69E+12     6.21E+16
+ # for the cluster:NGC_6569                
+ # for half mass radius calculus of time in year
+ #
+ #   4660337765888.8828     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3738471149887598E+017
+ #
+NGC_6569                0.10     4.66E+12     1.37E+17
+ # for the cluster:NGC_6584                
+ # for half mass radius calculus of time in year
+ #
+ #   17986712696358.504     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0563481342035668E+018
+ #
+NGC_6584                0.10     1.80E+13     1.06E+18
+ # for the cluster:NGC_6624                
+ # for half mass radius calculus of time in year
+ #
+ #   1998580980739.8833     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   57230784427091672.     
+ #
+NGC_6624                0.10     2.00E+12     5.72E+16
+ # for the cluster:NGC_6626_(M-28)         
+ # for half mass radius calculus of time in year
+ #
+ #   1253472952644.0813     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   41219499379929128.     
+ #
+NGC_6626_(M-28)         0.10     1.25E+12     4.12E+16
+ # for the cluster:NGC_6637_(M-69)         
+ # for half mass radius calculus of time in year
+ #
+ #   4295034313101.1396     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.6037293940046522E+017
+ #
+NGC_6637_(M-69)         0.10     4.30E+12     1.60E+17
+ # for the cluster:NGC_6638                
+ # for half mass radius calculus of time in year
+ #
+ #   2055451975355.8386     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   48660245625130480.     
+ #
+NGC_6638                0.10     2.06E+12     4.87E+16
+ # for the cluster:NGC_6642                
+ # for half mass radius calculus of time in year
+ #
+ #   1699705670137.3374     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   36835986958881064.     
+ #
+NGC_6642                0.10     1.70E+12     3.68E+16
+ # for the cluster:NGC_6652                
+ # for half mass radius calculus of time in year
+ #
+ #   1925637750448.1548     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   47236560429779368.     
+ #
+NGC_6652                0.10     1.93E+12     4.72E+16
+ # for the cluster:NGC_6656_(M-22)         
+ # for half mass radius calculus of time in year
+ #
+ #   7315894231310.5400     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.1410122979363584E+017
+ #
+NGC_6656_(M-22)         0.10     7.32E+12     5.14E+17
+ # for the cluster:NGC_6681_(M-70)         
+ # for half mass radius calculus of time in year
+ #
+ #   4178983728989.5293     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.6505490432429613E+017
+ #
+NGC_6681_(M-70)         0.10     4.18E+12     1.65E+17
+ # for the cluster:NGC_6712                
+ # for half mass radius calculus of time in year
+ #
+ #   6991957840207.4795     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.4916642863600051E+017
+ #
+NGC_6712                0.10     6.99E+12     2.49E+17
+ # for the cluster:NGC_6715_(M-54)         
+ # for half mass radius calculus of time in year
+ #
+ #   5428770569677.9121     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.2191620291809568E+017
+ #
+NGC_6715_(M-54)         0.10     5.43E+12     3.22E+17
+ # for the cluster:NGC_6717                
+ # for half mass radius calculus of time in year
+ #
+ #   9861599896094.5410     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.3482827655580819E+017
+ #
+NGC_6717                0.10     9.86E+12     4.35E+17
+ # for the cluster:NGC_6723                
+ # for half mass radius calculus of time in year
+ #
+ #   11206599483804.176     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.9994059836302234E+017
+ #
+NGC_6723                0.10     1.12E+13     7.00E+17
+ # for the cluster:NGC_6749                
+ # for half mass radius calculus of time in year
+ #
+ #   15946682060549.363     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.4675001044344148E+018
+ #
+NGC_6749                0.10     1.59E+13     1.47E+18
+ # for the cluster:NGC_6752                
+ # for half mass radius calculus of time in year
+ #
+ #   7977447515362.9277     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.9919809591611648E+017
+ #
+NGC_6752                0.10     7.98E+12     4.99E+17
+ # for the cluster:NGC_6760                
+ # for half mass radius calculus of time in year
+ #
+ #   15939194332028.787     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.6675816163301248E+017
+ #
+NGC_6760                0.10     1.59E+13     6.67E+17
+ # for the cluster:NGC_6779_(M-56)         
+ # for half mass radius calculus of time in year
+ #
+ #   8991074149535.3242     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.5123161317340954E+017
+ #
+NGC_6779_(M-56)         0.10     8.99E+12     4.51E+17
+ # for the cluster:NGC_6809_(M-55)         
+ # for half mass radius calculus of time in year
+ #
+ #   21250837751419.184     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.1670626362521592E+018
+ #
+NGC_6809_(M-55)         0.10     2.13E+13     2.17E+18
+ # for the cluster:NGC_6838_(M-71)         
+ # for half mass radius calculus of time in year
+ #
+ #   23206782098503.164     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3091643464500088E+018
+ #
+NGC_6838_(M-71)         0.10     2.32E+13     1.31E+18
+ # for the cluster:NGC_6864_(M-75)         
+ # for half mass radius calculus of time in year
+ #
+ #   2073127855713.3347     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   54224635899153112.     
+ #
+NGC_6864_(M-75)         0.10     2.07E+12     5.42E+16
+ # for the cluster:NGC_6934                
+ # for half mass radius calculus of time in year
+ #
+ #   11777312397292.129     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   5.5305963939821914E+017
+ #
+NGC_6934                0.10     1.18E+13     5.53E+17
+ # for the cluster:NGC_6981_(M-72)         
+ # for half mass radius calculus of time in year
+ #
+ #   27467006029571.539     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.5277624087299474E+018
+ #
+NGC_6981_(M-72)         0.10     2.75E+13     1.53E+18
+ # for the cluster:NGC_7006                
+ # for half mass radius calculus of time in year
+ #
+ #   29323582390690.391     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9101013261779425E+018
+ #
+NGC_7006                0.10     2.93E+13     1.91E+18
+ # for the cluster:NGC_7078_(M-15)         
+ # for half mass radius calculus of time in year
+ #
+ #   2787998621395.1797     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.4229330254211658E+017
+ #
+NGC_7078_(M-15)         0.10     2.79E+12     1.42E+17
+ # for the cluster:NGC_7089_(M-2)          
+ # for half mass radius calculus of time in year
+ #
+ #   5176229281844.3398     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.0608023175124550E+017
+ #
+NGC_7089_(M-2)          0.10     5.18E+12     3.06E+17
+ # for the cluster:NGC_7099_(M-30)         
+ # for half mass radius calculus of time in year
+ #
+ #   9376395244061.8477     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.8963371793200128E+017
+ #
+NGC_7099_(M-30)         0.10     9.38E+12     4.90E+17
+ # for the cluster:NGC_7492                
+ # for half mass radius calculus of time in year
+ #
+ #   276023481721293.44     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.3216143319878046E+019
+ #
+NGC_7492                0.10     2.76E+14     2.32E+19
+ # for the cluster:Pal_1                   
+ # for half mass radius calculus of time in year
+ #
+ #   72435768154133.969     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.2019143179983316E+018
+ #
+Pal_1                   0.10     7.24E+13     2.20E+18
+ # for the cluster:Pal_2                   
+ # for half mass radius calculus of time in year
+ #
+ #   35426174545280.617     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.2423593715092393E+018
+ #
+Pal_2                   0.10     3.54E+13     2.24E+18
+ # for the cluster:Pal_3                   
+ # for half mass radius calculus of time in year
+ #
+ #   3185539075080059.5     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.6875749246467663E+020
+ #
+Pal_3                   0.10     3.19E+15     6.69E+20
+ # for the cluster:Pal_4                   
+ # for half mass radius calculus of time in year
+ #
+ #   1777535904069728.0     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9162977036735889E+020
+ #
+Pal_4                   0.10     1.78E+15     2.92E+20
+ # for the cluster:Pal_5                   
+ # for half mass radius calculus of time in year
+ #
+ #   3249883335079077.5     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   9.4273964540265379E+020
+ #
+Pal_5                   0.10     3.25E+15     9.43E+20
+ # for the cluster:Pal_6                   
+ # for half mass radius calculus of time in year
+ #
+ #   3368869735112.6372     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.0183499762763085E+017
+ #
+Pal_6                   0.10     3.37E+12     2.02E+17
+ # for the cluster:Pal_8                   
+ # for half mass radius calculus of time in year
+ #
+ #   26256740550196.598     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.7346703945411651E+018
+ #
+Pal_8                   0.10     2.63E+13     2.73E+18
+ # for the cluster:Pal_10                  
+ # for half mass radius calculus of time in year
+ #
+ #   28180834649079.543     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9074938714483180E+018
+ #
+Pal_10                  0.10     2.82E+13     2.91E+18
+ # for the cluster:Pal_11                  
+ # for half mass radius calculus of time in year
+ #
+ #   284286456631490.38     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.8698624874953863E+019
+ #
+Pal_11                  0.10     2.84E+14     1.87E+19
+ # for the cluster:Pal_12                  
+ # for half mass radius calculus of time in year
+ #
+ #   449258761273814.06     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.5035570418279956E+019
+ #
+Pal_12                  0.10     4.49E+14     4.50E+19
+ # for the cluster:Pal_13                  
+ # for half mass radius calculus of time in year
+ #
+ #   1565837234127809.2     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.2044826982297928E+020
+ #
+Pal_13                  0.10     1.57E+15     3.20E+20
+ # for the cluster:Pal_14                  
+ # for half mass radius calculus of time in year
+ #
+ #   6654950306456185.0     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.0350449409779887E+021
+ #
+Pal_14                  0.10     6.65E+15     2.04E+21
+ # for the cluster:Pal_15                  
+ # for half mass radius calculus of time in year
+ #
+ #   1654690548090317.5     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.0586692724991892E+020
+ #
+Pal_15                  0.10     1.65E+15     4.06E+20
+ # for the cluster:Patchick_126            
+ # for half mass radius calculus of time in year
+ #
+ #   2635544388715.3550     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   88468822583824608.     
+ #
+Patchick_126            0.10     2.64E+12     8.85E+16
+ # for the cluster:Pyxis                   
+ # for half mass radius calculus of time in year
+ #
+ #   1526664856496654.5     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.1131647932395605E+020
+ #
+Pyxis                   0.10     1.53E+15     3.11E+20
+ # for the cluster:RLGC_1                  
+ # for half mass radius calculus of time in year
+ #
+ #   69003346954563.125     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.1601052011417453E+019
+ #
+RLGC_1                  0.10     6.90E+13     1.16E+19
+ # for the cluster:RLGC_2                  
+ # for half mass radius calculus of time in year
+ #
+ #   8220183509227.4902     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.4870603068174157E+017
+ #
+RLGC_2                  0.10     8.22E+12     6.49E+17
+ # for the cluster:Rup_106                 
+ # for half mass radius calculus of time in year
+ #
+ #   205341665268243.25     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.5341617288346046E+019
+ #
+Rup_106                 0.10     2.05E+14     2.53E+19
+ # for the cluster:Sagittarius_2           
+ # for half mass radius calculus of time in year
+ #
+ #   5656520014434714.0     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9779064692162856E+021
+ #
+Sagittarius_2           0.10     5.66E+15     1.98E+21
+ # for the cluster:Ter_1                   
+ # for half mass radius calculus of time in year
+ #
+ #   1075425222508.1307     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   15833237919509848.     
+ #
+Ter_1                   0.10     1.08E+12     1.58E+16
+ # for the cluster:Ter_2                   
+ # for half mass radius calculus of time in year
+ #
+ #   16068668659250.922     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.2350444721836659E+017
+ #
+Ter_2                   0.10     1.61E+13     4.24E+17
+ # for the cluster:Ter_3                   
+ # for half mass radius calculus of time in year
+ #
+ #   54932084160014.461     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   2.9806008495476296E+018
+ #
+Ter_3                   0.10     5.49E+13     2.98E+18
+ # for the cluster:Ter_4                   
+ # for half mass radius calculus of time in year
+ #
+ #   18133309404424.289     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   8.9206270456161933E+017
+ #
+Ter_4                   0.10     1.81E+13     8.92E+17
+ # for the cluster:Ter_5                   
+ # for half mass radius calculus of time in year
+ #
+ #   2973163104993.8779     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   94837206082498176.     
+ #
+Ter_5                   0.10     2.97E+12     9.48E+16
+ # for the cluster:Ter_6                   
+ # for half mass radius calculus of time in year
+ #
+ #   1688652987606.4348     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   24508557828233992.     
+ #
+Ter_6                   0.10     1.69E+12     2.45E+16
+ # for the cluster:Ter_7                   
+ # for half mass radius calculus of time in year
+ #
+ #   395569923211857.62     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   3.2512529876451295E+019
+ #
+Ter_7                   0.10     3.96E+14     3.25E+19
+ # for the cluster:Ter_8                   
+ # for half mass radius calculus of time in year
+ #
+ #   697787705496313.25     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.6001691532621119E+020
+ #
+Ter_8                   0.10     6.98E+14     1.60E+20
+ # for the cluster:Ter_9                   
+ # for half mass radius calculus of time in year
+ #
+ #   2976171903644.4351     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   62095133516341848.     
+ #
+Ter_9                   0.10     2.98E+12     6.21E+16
+ # for the cluster:Ter_10                  
+ # for half mass radius calculus of time in year
+ #
+ #   6766134467892.4688     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   4.3226752728993773E+017
+ #
+Ter_10                  0.10     6.77E+12     4.32E+17
+ # for the cluster:Ter_12                  
+ # for half mass radius calculus of time in year
+ #
+ #   7045047029797.3223     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.3008771459921254E+017
+ #
+Ter_12                  0.10     7.05E+12     1.30E+17
+ # for the cluster:Ton_2                   
+ # for half mass radius calculus of time in year
+ #
+ #   18300819897841.406     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.8044715039874304E+017
+ #
+Ton_2                   0.10     1.83E+13     6.80E+17
+ # for the cluster:UKS_1                   
+ # for half mass radius calculus of time in year
+ #
+ #   8540714472380.7920     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   6.3594789656523430E+017
+ #
+UKS_1                   0.10     8.54E+12     6.36E+17
+ # for the cluster:VVV-CL001               
+ # for half mass radius calculus of time in year
+ #
+ #   3503507824347.8647     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.9647573544009418E+017
+ #
+VVV-CL001               0.10     3.50E+12     1.96E+17
+ # for the cluster:VVV-CL160               
+ # for half mass radius calculus of time in year
+ #
+ #   13806841454444.270     
+ #
+ #
+ # for core radius calculus of time due to 100 ns
+ #
+ #   1.0913414602595190E+018
+ #
+VVV-CL160               0.10     1.38E+13     1.09E+18
