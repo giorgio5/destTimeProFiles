@@ -9,14 +9,14 @@ c                         1   2   3   4   5   6   7
             dimension m_bh_sm(6)
            data m_bh_sm/500.,1000.,1500.,2000.,2500.,5000./
 c                         1   2     3     4     5     6   
-      dimension res_time_bh(6)
-           data res_time_bh/0.,0.,0.,0.,0.,0./
+      dimension t_bh(6)
+           data t_bh/0.,0.,0.,0.,0.,0./
 c                           1  2  3  4  5  6   
       
       real*8  km,sm,ggg,au,yr,pi,pc,dist_sun
       real*8  m_tot,m_test,m_test_sm,m_tot_sm,m_mean_sm,m_mean,m_bh_sm
       real*8  r_half_m,orb_r,r_half_m_pc,orb_r_au,dest
-      real*8  rest_time_half_mr,res_time_ns,res_time_bh,time,time_yr
+      real*8  rest_time_half_mr,res_time_ns,t_bh,time,time_yr
             
   
       
@@ -25,7 +25,7 @@ c                           1  2  3  4  5  6
       character*6 b6
       character*4 b4
       character*32 fmt5 
-      character*86 fmt6
+      character*74 fmt6
 
       character*24 namecluster
      
@@ -35,7 +35,7 @@ c common blocks
       common /b/ pc,dist_sun
       
 c     declaration of function names      
-      real*8 time_destf,time_dest_ns,time_dest_bh,rto_cm     
+      real*8 time_destf,time_dest_ns,t_d_bh,rto_cm     
 
 c      initialization of constants   
   
@@ -82,7 +82,7 @@ c     using a format Fortran 77 with gnuplot library)
      & status='replace')
       write(3,*)"# dest_time(yr) for bh in centre"
       write(3,*)"# m_test(sm),m_bh =500,1000, 1500, 2000, 2500, 5000 sm"
-     
+      
       i_clu_max = 166
       !the total number of clusters in par file!
       i_clu = 0 
@@ -115,8 +115,14 @@ c     using a format Fortran 77 with gnuplot library)
       r_half_m = r_half_m_pc * pc
       m_tot    = m_tot_sm * sm
       
+      write(3,*) "#"
+      write(3,*) "#"
+      write(3,*) "# for cluster", namecluster
+      
       do 13 i_m = 1,7 
-         
+      write(3,*)"#"
+      write(3,*)"# for mass star test (sm)", m_test_sm(i_m)
+      
 c in order to the article of F. Selsis et al. 2007 the orbital radius
 c changes with the mass of the star test
       
@@ -161,21 +167,20 @@ c             12345678901234567890123456789012
       write(2,fmt =fmt5) namecluster,m_test_sm(i_m),b4,
      & rest_time_half_mr,b4,res_time_ns
      
-      fmt6 = "(a24,f4.2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,
-     +a4,es9.2e2,a4,es9.2e2)"  
-c             123456789012345678901234567890123456789012345678901234
-c     5678901234567890123456
+      fmt6 =  "(es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,e
+     + s9.2e2)"  
+c              123456789012345678901234567890123456789012345678901234567
+c     89012324
       
+      
+      !filling t_bh array
       do i_bh =1,6
-      res_time_bh(i_bh)=time_dest_bh(m_tot,r_half_m,m_bh_sm(i_bh),
-     & m_test_sm(i_m))/yr
+      t_bh(i_bh)=t_d_bh(m_tot,r_half_m,m_bh_sm(i_bh),m_test_sm(i_m))/yr
       enddo
       
-      write(3,fmt =fmt6) namecluster,m_test_sm(i_m),b4,
-     + res_time_bh(1),b4,res_time_bh(2),b4,res_time_bh(3),b4,
-     + res_time_bh(4),b4,res_time_bh(5),b4,res_time_bh(6)
-       go to 55    
-
+      write(3,fmt =fmt6) t_bh(1),b4,t_bh(2),b4,t_bh(3),b4,t_bh(4),b4,
+     + t_bh(5),b4,t_bh(6)
+                
   13  continue ! do loop for i_m = 1, 7
       
       if((k0 .eq. 0) .and. (i_clu .lt. i_clu_max)) go to 55 !until loop 55
@@ -247,7 +252,7 @@ c of mass m_bh = 500, 1000, 1500, 2000, 2500, 5000 sm
 c in the core of the cluster: ref Hills&Day(1976),  Peebles(1972)
 c for r_inf     
   
-      real*8 function time_dest_bh(m_tot_f,r_cor_f,m_bh_smf,m_test_smf)
+      real*8 function t_d_bh(m_tot_f,r_cor_f,m_bh_smf,m_test_smf)
       implicit none
       real*8  km,sm,ggg,au,yr,pi
       common /a/ km,sm,ggg,au,yr,pi
@@ -256,17 +261,18 @@ c for r_inf
       real*8 m_tot_f,r_cor_f,m_bh_smf,m_test_smf
       real*8 v_quad_f,v_mean_f,d_core_bh,r_inf
       real*8 crossec0,l,v_inf_quad,gamma,vol
-     
+      
+      ! il parametro d'impatto b_0 o r_coll stavolta è r_inf
       v_quad_f  = m_tot_f*ggg/(6 * r_cor_f)
       r_inf =  m_bh_smf*sm*ggg/v_quad_f
       v_mean_f  = sqrt(v_quad_f)
       vol = (4/3)*pi*(r_cor_f**3)
       d_core_bh = 1/vol
-      l = (sqrt(1.4/(2*sm*(m_test_smf + m_bh_smf))))/v_mean_f
-      v_inf_quad = 2*ggg*sm*(m_test_smf + m_bh_smf)/r_inf**2
+      l = (sqrt(m_bh_smf/(2*(m_test_smf + m_bh_smf))))/v_mean_f
+      v_inf_quad = 2*ggg*sm*(m_test_smf + m_bh_smf)/r_inf
       crossec0 = pi*(r_inf**2)
       gamma = 2*l*crossec0*(1/(l**2) + v_inf_quad)/sqrt(pi)
-      time_dest_bh = 1/(d_core_bh*gamma)
+      t_d_bh = 1/(d_core_bh*gamma)
       return
       end 
       
