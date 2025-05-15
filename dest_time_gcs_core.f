@@ -24,8 +24,8 @@ c                           1  2  3  4  5  6
       character*9 b9
       character*6 b6
       character*4 b4
-      character*32 fmt5 
-      character*74 fmt6
+      character*35 fmt5 
+      character*82 fmt6
 
       character*24 namecluster
      
@@ -71,7 +71,7 @@ c     using a format Fortran 77 with gnuplot library)
       open(unit=2,file='resultsGC_half_mass_NSs.ris',action='write'
      & ,status='replace')
       write(2,*)"# result of dest_time(yr) for core and NS"
-      write(2,*)"# m_test(sm), dets_time_core, dest_time_NS"
+      write(2,*)"# namecluster,m_test(sm), dest_time_core, dest_time_NS"
       write(2,*)"#"
       
 c     in this file unit=3 put the resulting time calculated in years for core radius
@@ -91,10 +91,6 @@ c     using a format Fortran 77 with gnuplot library)
       
   55  continue ! until loop for par file
       
-      if((k0 .eq. 1) .or. (i_clu .eq. i_clu_max)) then 
-       print *, "ho finito tutti i clusters! , i_clu_tot:", i_clu
-       go to 66
-      endif
       i_clu = i_clu +1 
       
       read(0, fmt=7) namecluster,
@@ -115,13 +111,13 @@ c     using a format Fortran 77 with gnuplot library)
       r_half_m = r_half_m_pc * pc
       m_tot    = m_tot_sm * sm
       
+     
       write(3,*) "#"
-      write(3,*) "#"
-      write(3,*) "# for cluster", namecluster
+      write(3,*) "# for cluster:  ", namecluster
+      write(2,*) "#"
       
-      do 13 i_m = 1,7 
-      write(3,*)"#"
-      write(3,*)"# for mass star test (sm)", m_test_sm(i_m)
+      do 13 i_m = 1,7 ! do loop for i_m
+      
       
 c in order to the article of F. Selsis et al. 2007 the orbital radius
 c changes with the mass of the star test
@@ -144,33 +140,25 @@ c calculus of time of destabilization for half mass radius
       time_yr = time/yr 
       rest_time_half_mr = time_yr
       
-      write(2,*) "# for the cluster:", namecluster
-      write(2,*) "# for half mass radius calculus of time in year"
-      write(2,*) "#"
-      write(2,*) "#", time_yr
-      write(2,*) "#"
-      
       time = time_dest_ns(dest,m_tot,r_half_m,m_mean_sm,m_test)
       time_yr = time/yr 
       res_time_ns = time_yr
       
-      write(2,*) "#"
-      write(2,*) "# for core radius calculus of time due to 100 ns"
-      write(2,*) "#"
-      write(2,*) "#", time_yr
-      write(2,*) "#"
       
-      fmt5 = "(a24,f4.2,a4,es9.2e2,a4,es9.2e2)"  
-c             12345678901234567890123456789012
+      write(2,*)"#namecluster, m_test(sm), dets_time_core, dest_time_NS"
+      
+      fmt5 = "(a24,a4,f3.1,a4,es9.2e2,a4,es9.2e2)"  
+c             12345678901234567890123456789012345
       b12 = "            "
       b4 = "    " 
-      write(2,fmt =fmt5) namecluster,m_test_sm(i_m),b4,
+      
+      write(2,fmt =fmt5) namecluster,b4,m_test_sm(i_m),b4,
      & rest_time_half_mr,b4,res_time_ns
-     
-      fmt6 =  "(es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,e
-     + s9.2e2)"  
+      
+      fmt6 =  "(f3.1,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.2e2,a4,es9.
+     + 2e2,a4,es9.2e2)"  
 c              123456789012345678901234567890123456789012345678901234567
-c     89012324
+c     8901232456789012
       
       
       !filling t_bh array
@@ -178,13 +166,20 @@ c     89012324
       t_bh(i_bh)=t_d_bh(m_tot,r_half_m,m_bh_sm(i_bh),m_test_sm(i_m))/yr
       enddo
       
-      write(3,fmt =fmt6) t_bh(1),b4,t_bh(2),b4,t_bh(3),b4,t_bh(4),b4,
-     + t_bh(5),b4,t_bh(6)
+      write(3,*)"# m_test(sm),m_bh =500,1000, 1500, 2000, 2500, 5000 sm"
+      write(3,fmt =fmt6) m_test_sm(i_m),b4,t_bh(1),b4,t_bh(2),b4,t_bh(3)
+     + ,b4,t_bh(4),b4,t_bh(5),b4,t_bh(6)
                 
   13  continue ! do loop for i_m = 1, 7
       
-      if((k0 .eq. 0) .and. (i_clu .lt. i_clu_max)) go to 55 !until loop 55
-     
+      if((k0 .eq. 0) .and. (i_clu .lt. i_clu_max)) then
+      go to 55 !until loop 55
+      elseif (i_clu .eq. i_clu_max) then 
+      print *, "ho finito tutti i clusters! , i_clu_tot:", i_clu
+      else  
+      go to 55 !until loop 55
+      endif
+      
   66  close(0)
       close(2)
       close(3)
@@ -231,12 +226,13 @@ c in the core of the cluster: ref Hills&Day(1976)
       vol = (4/3)*pi*(r_cor_f**3)
       d_core_ns = 100/vol
       l = (sqrt(1.4/(2*(mean_mfsm + 1.4))))/v_mean_f
-      v_inf_quad = 2*ggg*(mtestf + 1.4*sm)/df**2
+      v_inf_quad = 2*ggg*(mtestf + 1.4*sm)/df
       crossec0 = pi*(df**2)
       gamma = 2*l*crossec0*(1/(l**2) + v_inf_quad)/sqrt(pi)
       time_dest_ns = 1/(d_core_ns*gamma)
       return
       end 
+      
 c function for conversion from '' to cm
       real*8 function rto_cm (rf)
       implicit none
