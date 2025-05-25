@@ -1,0 +1,4 @@
+la ragione per cui per il caso delle NS all'aumentare della massa diminuisce il tempo potrebbe essere 
+che aumenando la massa aumenta il raggio orbitale per la HZ del pianeta, allora aumenta anche la distanza 
+di destabilizazione che è il parametro d'impatto che entra in gioco ed il pianeta può più facilmente
+essere catturato dalle NS che sono invece oggetti molto più compatti...
