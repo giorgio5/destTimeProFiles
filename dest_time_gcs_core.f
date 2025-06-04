@@ -57,7 +57,7 @@ c     are less globular clusters, before doing profile we need to check
 c     if namecluster_s present in parameter file mathces with 
 c     namecluster_read present in the file_rv
           
-      open(unit=0, file='BaumgardtGlobularParameter.dat', 
+      open(unit=0, file='BaumgardtGlobularParameter_comp.dat', 
      & action='read', status='old',iostat= k0)
       
       if (k0 .ne. 0) then 
