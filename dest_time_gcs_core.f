@@ -18,7 +18,7 @@ c                           1   2     3     4     5     6
       real*8  km,sm,ggg,au,yr,pi,pc,dist_sun
       real*8  m_tot_sm,m_test,m_test_sm,m_mean_sm,m_bh_sm
       real*8  comp_cox, comp_calc
-      real*8  orb_r,r_half_m_pc,orb_r_au,dest
+      real*8  orb_r,r_half_m_pc,orb_r_au,dest_au
       real*8  rest_time_half_mr,res_time_ns,res_time_bh,t
        
       character*2 b2
@@ -31,11 +31,11 @@ c                           1   2     3     4     5     6
      
       
 c common blocks      
-      common /a/ km,sm,ggg,au,yr,pi
-      common /b/ pc,dist_sun
+      common /a/ km,sm,ggg,au,yr,pi,pc
+
       
 c     declaration of function names      
-      real*8 t_d_f,t_d_ns,t_bh,rto_cm     
+      real*8 t_d_f,t_d_ns,t_bh    
 
 c      initialization of constants   
   
@@ -61,21 +61,22 @@ c                           12345678901234567890          a20
 c                            123456789012345678901234567890   a30
        write_t_dest_bh ="time_dest_bh = "    
 c                        123456789012345                  a15
-  1     format (a24,f6.2,a2,f6.2,a2,f5.2,a2,f4.2,a2,f4.2,a2,f4.2) 
+  1    format (a24,a2,f6.2,a2,f6.2,a2,f5.2,a2,f4.2,a2,f4.2,a2,f4.2) 
   
+
 c 1 is format for  parameters file "BaumgardtGlobularParameter_new.dat"
 
  
-  2     format (a20,f3.1) ! format for write of m_star_test_sm 
-  3     format (a20,es16.10e2) ! format for write of time at half
+  2    format (a20,f3.1) ! format for write of m_star_test_sm 
+  3    format (a20,es16.10e2) ! format for write of time at half
                                  ! mass radius
-  4     format (a30,es16.10e2) ! format for write of time at half
+  4    format (a30,es16.10e2) ! format for write of time at half
                                  ! mass radius for 100 NS
-  5     format (a20,i5,a4,a15,es16.10e2) ! format for write of time for a IMBH
+  5    format (a20,i5,a4,a15,es16.10e2) ! format for write of time for a IMBH
                                  ! in the center 
 
-c     open files of parameters : in the file of parameters, namely
-c     "BaumgardtGlobularParameter_all_with_comp.dat", there are 
+c      open files of parameters : in the file of parameters, namely
+c      "BaumgardtGlobularParameter_new.dat", there are 
 c      166 clusters but in file_rv, in the subdirectory there are 
 c      155 cluster profiles of rms-velocity, so in this program we 
 c      calculate mean values of destabilization time with core radius
@@ -125,8 +126,8 @@ c      for every cluster in format 6
       
       i_clu = i_clu + 1 
 c234567   
-      read(0,fmt=1) namecluster,dist_sun,b2,m_tot_sm,b2,r_half_m_pc,b2,
-     & m_mean_sm,b2,comp_cox,b2,comp_calc 
+      read(0,fmt=1) namecluster,b2,dist_sun,b2,m_tot_sm,b2,r_half_m_pc,
+     & b2,m_mean_sm,b2,comp_cox,b2,comp_calc
        
              
       write(*,*) "namecluster ",namecluster
@@ -204,19 +205,20 @@ c changes with the mass of the star test
       if (i_m == 6 ) orb_r_au   = 0.30
       if (i_m == 7 ) orb_r_au   = 0.45
       
-      orb_r   = orb_r_au * au 
-      dest = orb_r * (2*m_mean_sm/m_test_sm(i_m))**(1./3.)
+      
+      dest_au = orb_r_au * (2*m_mean_sm/m_test_sm(i_m))**(1./3.)
       
       
       write(2,fmt=2) write_mass_star_test_sm,m_test_sm(i_m)
       write(3,fmt=2) write_mass_star_test_sm,m_test_sm(i_m)
+      
 c calculus of time of destabilization for half mass radius
       
-      t = t_destf(dest,m_tot_sm,r_half_m_pc,m_mean_sm,m_test_sm(i_m))
+      t = t_d_f(dest_au,m_tot_sm,r_half_m_pc,m_mean_sm,m_test_sm(i_m))
       rest_time_half_mr = t/yr
       write(2,fmt=3) write_t_dest_r_hm,rest_time_half_mr
             
-      t = t_destf_ns(dest,m_tot_sm,r_half_m_pc,m_mean_sm,m_test_sm(i_m))
+      t=t_d_ns(dest_au,m_tot_sm,r_half_m_pc,m_mean_sm,m_test_sm(i_m))
       res_time_ns = t/yr
       write(2,fmt=4) write_t_dest_r_hm_ns,res_time_ns
        
@@ -233,7 +235,7 @@ c calculus of time of destabilization for half mass radius
       if((k0 .eq. 0) .and. (i_clu .lt. i_clu_max)) then
       go to 55 !until loop 55
       elseif (i_clu .eq. i_clu_max) then 
-      print *, "ho finito tutti i clusters! , i_clu_tot:", i_clu
+      print *, "finished job for all clusters! , i_clu_tot:", i_clu
       else  
       go to 55 !until loop 55
       endif
@@ -249,90 +251,96 @@ c calculus of time of destabilization for half mass radius
 c=====================================================================
 c functions and subroutines
 
-c calculus of time of destabilization for half mass radius   
-      real*8 function t_d_f(df,m_tot_smf,r_hm_pcf,m_mean_smf,mtest_smf)
+c function for calculus of time of destabilization for half mass radius   
+      real*8 function t_d_f(d_au,m_tot_smf,r_hm_pcf,m_mean_smf,
+     & m_test_smf)
       implicit none
-      real*8  km,sm,ggg,au,yr,pi
-      common /a/ km,sm,ggg,au,yr,pi
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-c      riscrivere per bene le funzioni
+      real*8  km,sm,ggg,au,yr,pi,pc
+      common /a/ km,sm,ggg,au,yr,pi,pc
       
-c      real*8 df,m_totsm_f,r_cor_f,mean_mfsm,mtestf
-c      real*8 v_quad_f, v_mean_f, d_core_f, focusg_f, m_tot_f
+      real*8 d_au,m_tot_smf,r_hm_pcf,m_mean_smf,m_test_smf
+      real*8 m_tot_f,r_hm_f,m_test_f,df
+      real*8 v_quad_f,v_mean_f,d_core_f,focusg_f
+
+      m_tot_f = m_tot_smf * sm
+      r_hm_f = r_hm_pcf * pc
+      df = d_au * au
+      m_test_f = m_test_smf * sm
       
-c      m_tot_f = m_totsm_f*sm
-c      v_quad_f    = m_tot_f * ggg/(6 * r_cor_f)
-c      v_mean_f  = sqrt(v_quad_f)
-c      d_core_f = 3*m_totsm_f/(8*mean_mfsm*pi*r_cor_f**3)
-c      focusg_f  = (df**2 + (ggg * mtestf *df)/v_quad_f)
-c      time_destf = 1/(4*sqrt(pi)*v_mean_f*d_core_f*focusg_f) 
-c      return
-c      end 
+      v_quad_f  = m_tot_f * ggg/(6 * r_hm_f)
+      v_mean_f  = sqrt(v_quad_f)
+      d_core_f = 3*m_tot_smf/(8*m_mean_smf*pi*r_hm_f**3)! stellar density 
+      focusg_f  = (df**2 + (ggg * m_test_f *df)/v_quad_f)
+      t_d_f = 1/(4*sqrt(pi)*v_mean_f*d_core_f*focusg_f) 
+      return
+      end 
 
 c this function yelds the time of destabilization for a star mass
 c with mass = m_test due to about 100 neutron stars of mass m = 1.4 sm
 c in the core of the cluster: ref Hills&Day(1976)
-      real*8 function t_d_ns(d,m_tot_smf,r_hm_pcf,m_mean_smf,mtest_smf)
+
+      real*8 function t_d_ns(d_au,m_tot_smf,r_hm_pcf,m_mean_smf
+     &,m_test_smf)
       implicit none
-      real*8  km,sm,ggg,au,yr,pi
-      common /a/ km,sm,ggg,au,yr,pi
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-c      riscrivere per bene le funzioni
+      real*8  km,sm,ggg,au,yr,pi,pc
+      common /a/ km,sm,ggg,au,yr,pi,pc
       
-c      real*8 df,m_tot_smf,r_cor_f,mean_mfsm,mtest_smf
-c      real*8 v_quad_f,v_mean_f,v_mean_ns,d_core_ns
-c      real*8 crossec0, l, v_inf_quad, gamma, vol
-     
-c      v_quad_f  = m_tot_f * ggg/(6 * r_cor_f)
-c      v_mean_f  = sqrt(v_quad_f)
-c      vol = (4/3)*pi*(r_cor_f**3)
-c      d_core_ns = 100/vol
-c      l = (sqrt(1.4/(2*(mean_mfsm + 1.4))))/v_mean_f
-c      v_inf_quad = 2*ggg*(mtestf + 1.4*sm)/df
-c      crossec0 = pi*(df**2)
-c      gamma = 2*l*crossec0*(1/(l**2) + v_inf_quad)/sqrt(pi)
-c      time_dest_ns = 1/(d_core_ns*gamma)
-c      return
-c      end 
+      real*8 d_au,m_tot_smf,r_hm_pcf,m_mean_smf,m_test_smf
+      real*8 m_tot_f,r_hm_f,m_test_f,df
+      real*8 v_quad_f,v_mean_f,d_core_ns,v_mean_ns
+      real*8 crossec0,l,v_inf_quad,gamma,vol
       
-c function for conversion from '' to cm
-      real*8 function rto_cm (rf)
-      implicit none
-      real*8 rf,pc,dist_sun
-      common /b/ pc,dist_sun
-      rto_cm = rf*dist_sun*1000*pc/206265 ! conversion from '' to cm
+      m_tot_f = m_tot_smf * sm
+      r_hm_f = r_hm_pcf * pc
+      df = d_au * au
+      m_test_f = m_test_smf * sm
+      
+      v_quad_f  = m_tot_f * ggg/(6 * r_hm_f)
+      v_mean_f  = sqrt(v_quad_f)
+
+      vol = (4/3)*pi*(r_hm_f**3)
+      d_core_ns = 100/vol
+      l = (sqrt(1.4/(2*(m_mean_smf+ 1.4))))/v_mean_f
+      v_inf_quad = 2*ggg*(m_test_f + 1.4*sm)/df
+      crossec0 = pi*(df**2)
+      gamma = 2*l*crossec0*(1/(l**2) + v_inf_quad)/sqrt(pi)
+      t_d_ns = 1/(d_core_ns*gamma)
       return
-      end
+      end 
       
-c these function and subroutine yeld the time of destabilization for a star mass
+
+      
+c this function yeld the time of destabilization for a star mass
 c with mass = m_test due to a IMBH at the centre of cluster
 c of mass m_bh = 500, 1000, 1500, 2000, 2500, 5000 sm
 c in the core of the cluster: ref Hills&Day(1976),  Peebles(1972)
 c for r_inf     
  
-       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-c      riscrivere per bene le funzioni
-      real*8 function t_bh(m_tot_smf,r_hm_pcf,m_bh_smf,mtest_smf)
+       
+      real*8 function t_bh(m_tot_smf,r_hm_pcf,m_bh_smf,m_test_smf)
       implicit none
-      real*8  km,sm,ggg,au,yr,pi
-      common /a/ km,sm,ggg,au,yr,pi
+      real*8  km,sm,ggg,au,yr,pi,pc
+      common /a/ km,sm,ggg,au,yr,pi,pc
       
+      real*8 m_tot_smf,r_hm_pcf,m_bh_smf,m_test_smf
+      real*8 m_tot_f,r_hm_f,m_test_f,d_core_bh,r_inf
+      real*8 crossec0,l,v_inf_quad,gamma,vol,v_quad_f,v_mean_f
       
-c      real*8 m_tot_f,r_cor_f,m_bh_smf,m_test_smf
-c      real*8 v_quad_f,v_mean_f,d_core_bh,r_inf
-c      real*8 crossec0,l,v_inf_quad,gamma,vol
+      m_tot_f = m_tot_smf * sm
+      r_hm_f = r_hm_pcf * pc
+      m_test_f = m_test_smf * sm
       
-c      ! il parametro d'impatto b_0 o r_coll stavolta è r_inf
-c      v_quad_f  = m_tot_f*ggg/(6 * r_cor_f)
-c      r_inf =  m_bh_smf*sm*ggg/v_quad_f
-c      v_mean_f  = sqrt(v_quad_f)
-c      vol = (4/3)*pi*(r_cor_f**3)
-c      d_core_bh = 1/vol
-c      l = (sqrt(m_bh_smf/(2*(m_test_smf + m_bh_smf))))/v_mean_f
-c      v_inf_quad = 2*ggg*sm*(m_test_smf + m_bh_smf)/r_inf
-c      crossec0 = pi*(r_inf**2)
-c      gamma = 2*l*crossec0*(1/(l**2) + v_inf_quad)/sqrt(pi)
-c      t_d_bh = 1/(d_core_bh*gamma)
-c      return
-c      end 
+      v_quad_f  = m_tot_f * ggg/(6 * r_hm_f)
+      v_mean_f  = sqrt(v_quad_f)
+      vol = (4/3)*pi*(r_hm_f**3)
       
+c     ! now the impact parameter, b_0 or r_coll, is r_inf!
+      r_inf =  m_bh_smf*sm*ggg/v_quad_f
+      d_core_bh = 1/vol
+      l = (sqrt(m_bh_smf/(2*(m_test_smf + m_bh_smf))))/v_mean_f
+      v_inf_quad = 2*ggg*sm*(m_test_smf + m_bh_smf)/r_inf
+      crossec0 = pi*(r_inf**2)
+      gamma = 2*l*crossec0*(1/(l**2) + v_inf_quad)/sqrt(pi)
+      t_bh = 1/(d_core_bh*gamma)
+      return
+      end  
