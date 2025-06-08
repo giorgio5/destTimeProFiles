@@ -1,9 +1,9 @@
-# Cluster_Name	  Distance_Sun  Mass  rh.m  estim_mean_mass	c_Cox  c__(log(rt/rc))
-#                          [kpc]     [M☉]   [pc]    [M☉]
-2MASS-GC01               	003.37 	4.1d4 	05.98 	0.43	0.00	2.23
-2MASS-GC02               	005.50 	1.60d4 	02.85 	0.35	0.00	1.40
-AM_1                     	118.91 	1.96d4 	20.32 	0.74	1.23	1.58
-AM_4                     	029.01 	7.46d2 	11.29 	0.71	0.50	1.13
+# Cluster_Name	       Distance_Sun  M_tot  rh.m  estim_mean_mass	c_Cox  c_(log(rt/rc))
+#                          [kpc]     [M☉]   [pc]    [M☉]    (0 for no data)
+2MASS-GC01               	003.37 	4.10d4 	05.98 	0.43    0.00	2.23
+2MASS-GC02               	005.50 	1.60d4 	02.85 	0.35   	0.00	1.40
+AM_1                     	118.91 	1.96d4 	20.32 	0.74    1.23	1.58
+AM_4                     	029.01 	7.46d2 	11.29 	0.71   	0.50	1.13
 Arp_2                    	028.73 	3.87d4 	19.34 	0.62	0.90	1.02
 BH_140                   	004.81 	6.12d4 	09.73 	0.45	0.00	1.03
 BH_261_(AL-3)            	006.12 	2.38d4 	04.45 	0.64	0.00	1.76
