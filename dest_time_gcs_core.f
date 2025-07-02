@@ -1,7 +1,7 @@
       program dest_time_gcs_core
       implicit none
 
-      integer i_m,k0,k2,k3,i_clu,i_clu_max,i_bh
+      integer i_m,k0,k2,k3,i_clu,i_clu_max,i_bh,i_u_res
       integer write_bh_sm ! format i4
       
       dimension m_test_sm(7)
@@ -22,11 +22,13 @@ c                           1   2     3     4     5     6
       real*8  rest_time_half_mr,res_time_ns,res_time_bh,t
        
       character*2 b2
-      character*4 b4
+      character*4 b4, sep4
       character*20 write_mass_star_test_sm,write_mass_bh_sm
       character*20 write_t_dest_r_hm
       character*15 write_t_dest_bh
       character*30 write_t_dest_r_hm_ns
+      character*22 write_r_orb
+      character*25 write_dest
       character*24 namecluster
      
       
@@ -49,6 +51,7 @@ c      initialization of constants
        
 c      declaration of test string equal for repetitive output   
        b2 = "  "
+       sep4 = " ###"
        b4 = "    "   
        write_mass_star_test_sm = "for mass_test(sm) = "  
 c                                 12345678901234567890    a20
@@ -59,8 +62,16 @@ c                           12345678901234567890          a20
 
        write_t_dest_r_hm_ns="time_dest at r_hm for 100 NS= "    
 c                            123456789012345678901234567890   a30
+
        write_t_dest_bh ="time_dest_bh = "    
 c                        123456789012345                  a15
+
+       write_r_orb = "orbital radius (au) = "
+c                     1234567890123456789012              a22   
+    
+       write_dest  = " capture min dest (au) = "
+c                     1234567890123456789012345           a25          
+
   1    format (a24,a2,f6.2,a2,f6.2,a2,f5.2,a2,f4.2,a2,f4.2,a2,f4.2) 
   
 
@@ -74,6 +85,8 @@ c 1 is format for  parameters file "BaumgardtGlobularParameter_new.dat"
                                  ! mass radius for 100 NS
   5    format (a20,i5,a4,a15,es16.10e2) ! format for write of time for a IMBH
                                  ! in the center 
+  6    format (a22,f6.2,a4,a25,f6.2)  ! format to write the orbital radius 
+                                 ! and distance of dest that is impact par 
 
 c      open files of parameters : in the file of parameters, namely
 c      "BaumgardtGlobularParameter_new.dat", there are 
@@ -91,29 +104,46 @@ c      and different mass IMBH in the center) for all these clusters
        write (*,*) "BaumgardtGlobularParameter_all_with_comp.dat cannot+
      +be opened"
       end if
+c=================================================================      
+c     in this file of results, namely "resultsGC_half_mass_r.ris"
+c     unit = 1 put the resulting time calculated in years for half-mass
+c     radius mediated quantities
            
-      open(unit=2,file='resultsGC_half_mass_NSs.ris',action='write'
+      open(unit=1,file='resultsGC_half_mass_r.ris',action='write'
+     & ,status='replace')
+      write(1,*)"# result of dest_time(yr) for half-mass radius"
+      write(1,*)"# namecluster,m_test(sm), dest_time_core "
+      write(1,*)"#"
+      
+c=================================================================      
+c     in this file of results, namely "resultsGC_NSs.ris"
+c     unit = 2 put the resulting time calculated in years for a half-mass
+c     radius filled with about 100 NS in the core of the 
+c     cluster for every one in format 5, this results file shows 
+c     for all result-time the corrispondent orbital radius and impact
+c     parameter, that is the minimal distance for the capture. 
+c     It's obvious that for orbital radius and smaller impact parameters
+c     the time for capture will be greater than those calculated
+      
+      open(unit=2,file='resultsGC_NSs.ris',action='write'
      & ,status='replace')
       write(2,*)"# result of dest_time(yr) for core and NS"
-      write(2,*)"# namecluster,m_test(sm), dest_time_core, dest_time_NS"
+      write(2,*)"# namecluster,m_test(sm), dest_time_NS"
       write(2,*)"#"
       
-c     in this file of results, namely "resultsGC_half_mass_NSs.ris"
-c     unit = 2 put the resulting time calculated in years for core radius
-c     and about 100 NS in the core of the cluster for every one
-c     in format 5 
-
-      open(unit=3,file='resultsGCs_bh.ris',action='write',
-     & status='replace')
-      write(3,*)"# dest_time(yr) for bh in centre"
-      write(3,*)"#"
-        
+c======================================================================
 c      in this file of results, namely "resultsGCs_bh.ris",
 c      unit = 3 put the resulting time calculated in years 
 c      for core radius in the case of eventual presence of a central IMBH 
 c      with variable mass (500, 1000, 1500, 2000, 2500, 5000 sm respectively
 c      for every cluster in format 6 
 
+      open(unit=3,file='resultsGCs_bh.ris',action='write',
+     & status='replace')
+      write(3,*)"# dest_time(yr) for bh in centre"
+      write(3,*)"#"
+        
+c====================================================================
       i_clu_max = 166
       ! total number of clusters in par file
       
@@ -143,13 +173,14 @@ c      are substituted by 0, so it have be done a check for this variable
 c      something so that if the comp_cox is .eq. 0 use comp_calc and if
 c      even this 0 there are no data for this cluster
       
-      
-      write(2,*) "#"
-      write(2,*) "namecluster ",namecluster
-      write(2,*) "total mass in solar masses =",m_tot_sm
-      write(2,*) "distance from sun in kpc =",dist_sun
-      write(2,*) "half mass radius in pc = ",r_half_m_pc
-      write(2,*) "mean mass in solar masses =",m_mean_sm
+      do i_u_res = 1, 3
+      write(i_u_res,*) "#"
+      write(i_u_res,*) "namecluster ",namecluster
+      write(i_u_res,*) "total mass in solar masses =",m_tot_sm
+      write(i_u_res,*) "distance from sun in kpc =",dist_sun
+      write(i_u_res,*) "half mass radius in pc = ",r_half_m_pc
+      write(i_u_res,*) "mean mass in solar masses =",m_mean_sm
+      enddo
       
 c      in the parameter file the empty fields for the compactness parameters
 c      are substituted by 0, so it have be done a check for this variable
@@ -208,15 +239,23 @@ c changes with the mass of the star test
       
       dest_au = orb_r_au * (2*m_mean_sm/m_test_sm(i_m))**(1./3.)
       
+      write(1,*) "#" 
+      write(1,fmt=2) write_mass_star_test_sm,m_test_sm(i_m)
+      write(1,fmt=6) write_r_orb,orb_r_au,sep4,write_dest,dest_au
       
+      write(2,*) "#"
       write(2,fmt=2) write_mass_star_test_sm,m_test_sm(i_m)
+      write(2,fmt=6) write_r_orb,orb_r_au,sep4,write_dest,dest_au
+      
+      write(3,*) "#"
       write(3,fmt=2) write_mass_star_test_sm,m_test_sm(i_m)
+      write(3,fmt=6) write_r_orb,orb_r_au,sep4,write_dest,dest_au
       
 c calculus of time of destabilization for half mass radius
       
       t = t_d_f(dest_au,m_tot_sm,r_half_m_pc,m_mean_sm,m_test_sm(i_m))
       rest_time_half_mr = t/yr
-      write(2,fmt=3) write_t_dest_r_hm,rest_time_half_mr
+      write(1,fmt=3) write_t_dest_r_hm,rest_time_half_mr
             
       t=t_d_ns(dest_au,m_tot_sm,r_half_m_pc,m_mean_sm,m_test_sm(i_m))
       res_time_ns = t/yr
