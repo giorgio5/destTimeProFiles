@@ -1,0 +1,1827 @@
+ # result of dest-Time for half-mass radius
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+2MASS-GC01                4.10E+4    3.37   5.98  0.43
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.23  3.3027353117E+13
+0.2  0.09  2.23  9.2515622905E+12
+0.3  0.15  2.23  4.2366607777E+12
+0.4  0.20  2.23  2.6239065333E+12
+0.5  0.25  2.23  1.8094339784E+12
+0.6  0.30  2.23  1.3355458236E+12
+0.7  0.45  2.23  8.0285451397E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+2MASS-GC02                1.60E+4    5.50   2.85  0.35
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.40  7.2348187786E+12
+0.2  0.09  1.40  2.0263737774E+12
+0.3  0.15  1.40  9.2793182898E+11
+0.4  0.20  1.40  5.7465096538E+11
+0.5  0.25  1.40  3.9625288658E+11
+0.6  0.30  1.40  2.9246140800E+11
+0.7  0.45  1.40  1.7583971533E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+AM_1                      1.96E+4  118.91  20.32  0.74
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.23  1.4655699481E+15
+0.2  0.09  1.23  4.1036750425E+14
+0.3  0.15  1.23  1.8790518057E+14
+0.4  0.20  1.23  1.1634129861E+14
+0.5  0.25  1.23  8.0211383574E+13
+0.6  0.30  1.23  5.9194529792E+13
+0.7  0.45  1.23  3.5604797823E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+AM_4                      7.46E+2   29.01  11.29  0.71
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.50  1.6827467232E+15
+0.2  0.09  0.50  4.7114214605E+14
+0.3  0.15  0.50  2.1572954003E+14
+0.4  0.20  0.50  1.3356116274E+14
+0.5  0.25  0.50  9.2079888340E+13
+0.6  0.30  0.50  6.7951176723E+13
+0.7  0.45  0.50  4.0876259910E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Arp_2                     3.87E+4   28.73  19.34  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.90  8.1859027562E+14
+0.2  0.09  0.90  2.2922764139E+14
+0.3  0.15  0.90  1.0496417538E+14
+0.4  0.20  0.90  6.4992226472E+13
+0.5  0.25  0.90  4.4810670360E+13
+0.6  0.30  0.90  3.3070495192E+13
+0.7  0.45  0.90  1.9889290891E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+BH_140                    6.12E+4    4.81   9.73  0.45
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.03  9.4127532080E+13
+0.2  0.09  1.03  2.6365960462E+13
+0.3  0.15  1.03  1.2073930977E+13
+0.4  0.20  1.03  7.4776081322E+12
+0.5  0.25  1.03  5.1564343008E+12
+0.6  0.30  1.03  3.8059207390E+12
+0.7  0.45  1.03  2.2880119087E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+BH_261_(AL-3)             2.38E+4    6.12   4.45  0.64
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.76  2.7007244132E+13
+0.2  0.09  1.76  7.5648208058E+12
+0.3  0.15  1.76  3.4641895196E+12
+0.4  0.20  1.76  2.1454051716E+12
+0.5  0.25  1.76  1.4794203773E+12
+0.6  0.30  1.76  1.0919390542E+12
+0.7  0.45  1.76  6.5646127740E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Crater                    1.21E+4  147.23  27.62  0.81
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.26  4.2691129464E+15
+0.2  0.09  1.26  1.1953225626E+15
+0.3  0.15  1.26  5.4732624277E+14
+0.4  0.20  1.26  3.3886554007E+14
+0.5  0.25  1.26  2.3362511165E+14
+0.6  0.30  1.26  1.7240801995E+14
+0.7  0.45  1.26  1.0370778174E+14
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Djor_1                    8.43E+4    9.88   5.62  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.50  2.6322973499E+13
+0.2  0.09  1.50  7.3789775110E+12
+0.3  0.15  1.50  3.3797392429E+12
+0.4  0.20  1.50  2.0943298577E+12
+0.5  0.25  1.50  1.4448029103E+12
+0.6  0.30  1.50  1.0667285580E+12
+0.7  0.45  1.50  6.4058358970E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Djor_2_(ESO-456-SC38)     1.34E+5    8.76   6.48  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.50  3.0260222247E+13
+0.2  0.09  1.50  8.4866887146E+12
+0.3  0.15  1.50  3.8875458979E+12
+0.4  0.20  1.50  2.4098475326E+12
+0.5  0.25  1.50  1.6628828592E+12
+0.6  0.30  1.50  1.2279763041E+12
+0.7  0.45  1.50  7.3691786921E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+E_3                       2.56E+3    7.88   5.51  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.75  1.3052655626E+14
+0.2  0.09  0.75  3.6546467650E+13
+0.3  0.15  0.75  1.6734252992E+13
+0.4  0.20  0.75  1.0360644349E+13
+0.5  0.25  0.75  7.1429627091E+12
+0.6  0.30  0.75  5.2712782871E+12
+0.7  0.45  0.75  3.1708169365E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Eridanus                  9.29E+3   84.68  18.83  0.71
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.10  1.7124813957E+15
+0.2  0.09  1.10  4.7948456452E+14
+0.3  0.15  1.10  2.1955134553E+14
+0.4  0.20  1.10  1.3593090166E+14
+0.5  0.25  1.10  9.3715407167E+13
+0.6  0.30  1.10  6.9159120331E+13
+0.7  0.45  1.10  4.1600782318E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+ESO_280-SC06              4.01E+4   20.95   9.69  0.43
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.49  1.1182265171E+14
+0.2  0.09  1.49  3.1317555772E+13
+0.3  0.15  1.49  1.4340889560E+13
+0.4  0.20  1.49  8.8805345403E+12
+0.5  0.25  1.49  6.1233566463E+12
+0.6  0.30  1.49  4.5193091109E+12
+0.7  0.45  1.49  2.7174940293E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+ESO_452-SC11              7.32E+3    7.39   3.26  0.35
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.22  1.4999177682E+13
+0.2  0.09  1.22  4.2001307194E+12
+0.3  0.15  1.22  1.9232497460E+12
+0.4  0.20  1.22  1.1908368461E+12
+0.5  0.25  1.22  8.2105004212E+11
+0.6  0.30  1.22  6.0593613411E+11
+0.7  0.45  1.22  3.6442875143E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+FSR_1716                  5.66E+4    7.43   5.26  0.43
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.28  2.0344693651E+13
+0.2  0.09  1.28  5.7004814309E+12
+0.3  0.15  1.28  2.6106540076E+12
+0.4  0.20  1.28  1.6171944073E+12
+0.5  0.25  1.28  1.1153714206E+12
+0.6  0.30  1.28  8.2334835875E+11
+0.7  0.45  1.28  4.9475710384E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+FSR_1735                  9.98E+4    9.08   2.69  0.72
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.83  3.9539976582E+12
+0.2  0.09  1.83  1.1104248185E+12
+0.3  0.15  1.83  5.0882731862E+11
+0.4  0.20  1.83  3.1573365252E+11
+0.5  0.25  1.83  2.1802421833E+11
+0.6  0.30  1.83  1.6109114532E+11
+0.7  0.45  1.83  9.6485052861E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+FSR_1758                  4.91E+5   11.09  16.23  0.61
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.04  1.4364792481E+14
+0.2  0.09  1.04  4.0314052772E+13
+0.3  0.15  1.04  1.8469924099E+13
+0.4  0.20  1.04  1.1455009169E+13
+0.5  0.25  1.04  7.9071865241E+12
+0.6  0.30  1.04  5.8407481220E+12
+0.7  0.45  1.04  3.5017172102E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Gran_1_(ESO-456-SC29)     2.60E+4    8.27   7.79  0.41
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.14  7.8001842492E+13
+0.2  0.09  1.14  2.1844230244E+13
+0.3  0.15  1.14  1.0002730432E+13
+0.4  0.20  1.14  6.1938714672E+12
+0.5  0.25  1.14  4.2706975821E+12
+0.6  0.30  1.14  3.1518878630E+12
+0.7  0.45  1.14  1.8954161429E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Gran_2                    4.20E+4   15.84  12.29  0.46
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.29  2.0713742942E+14
+0.2  0.09  1.29  5.8009205399E+13
+0.3  0.15  1.29  2.6563195303E+13
+0.4  0.20  1.29  1.6448591508E+13
+0.5  0.25  1.29  1.1341454332E+13
+0.6  0.30  1.29  8.3703436013E+12
+0.7  0.45  1.29  5.0334751129E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Gran_3_(Patchick-125)     3.50E+4   11.47  10.09  0.45
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.91  1.3656085122E+14
+0.2  0.09  0.91  3.8244181211E+13
+0.3  0.15  0.91  1.7512532988E+13
+0.4  0.20  0.91  1.0844211315E+13
+0.5  0.25  0.91  7.4771903436E+12
+0.6  0.30  0.91  5.5184016099E+12
+0.7  0.45  0.91  3.3184614703E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Gran_5                    2.29E+4    4.91   2.20  0.35
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.70  3.1566877525E+12
+0.2  0.09  1.70  8.8442354138E+11
+0.3  0.15  1.70  4.0503290589E+11
+0.4  0.20  1.70  2.5088789850E+11
+0.5  0.25  1.70  1.7302953371E+11
+0.6  0.30  1.70  1.2772371563E+11
+0.7  0.45  1.70  7.6758265880E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+HP_1                      1.37E+5    7.00   4.19  0.64
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  9.4881024044E+12
+0.2  0.09  2.50  2.6633912858E+12
+0.3  0.15  2.50  1.2203033719E+12
+0.4  0.20  2.50  7.5695741499E+11
+0.5  0.25  2.50  5.2257709049E+11
+0.6  0.30  2.50  3.8604412624E+11
+0.7  0.45  2.50  2.3137066991E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+IC_1257                   1.80E+4   26.59   5.53  0.39
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.78  3.8502023765E+13
+0.2  0.09  1.78  1.0782297666E+13
+0.3  0.15  1.78  4.9373296745E+12
+0.4  0.20  1.78  3.0572622694E+12
+0.5  0.25  1.78  2.1079832275E+12
+0.6  0.30  1.78  1.5557414680E+12
+0.7  0.45  1.78  9.3557178041E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+IC_1276                   7.43E+4    4.55   4.98  0.44
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.29  1.5682302318E+13
+0.2  0.09  1.29  4.3954150294E+12
+0.3  0.15  1.29  2.0131190142E+12
+0.4  0.20  1.29  1.2473218611E+12
+0.5  0.25  1.29  8.6040790493E+11
+0.6  0.30  1.29  6.3521524637E+11
+0.7  0.45  1.29  3.8154378270E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+IC_4499                   1.50E+5   18.89  14.96  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.11  2.1281716683E+14
+0.2  0.09  1.11  5.9632159862E+13
+0.3  0.15  1.11  2.7309995624E+13
+0.4  0.20  1.11  1.6917825946E+13
+0.5  0.25  1.11  1.1668337174E+13
+0.6  0.30  1.11  8.6134777311E+12
+0.7  0.45  1.11  5.1756834142E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Laevens_3                 2.70E+3   61.77   9.85  0.43
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.37  4.5010341724E+14
+0.2  0.09  1.37  1.2602350537E+14
+0.3  0.15  1.37  5.7704634726E+13
+0.4  0.20  1.37  3.5726110922E+13
+0.5  0.25  1.37  2.4630516581E+13
+0.6  0.30  1.37  1.8176411693E+13
+0.7  0.45  1.37  1.0933865550E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Liller_1                  1.01E+6    8.06   2.42  0.38
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.30  5.0674544078E+11
+0.2  0.09  2.30  1.4514118225E+11
+0.3  0.15  2.30  6.6834108903E+10
+0.4  0.20  2.30  4.2097965058E+10
+0.5  0.25  2.30  2.9387462061E+10
+0.6  0.30  2.30  2.1896579592E+10
+0.7  0.45  2.30  1.2736667469E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Lynga_7                   6.75E+4    7.90   4.97  0.55
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.46  1.9000271389E+13
+0.2  0.09  1.46  5.3252627689E+12
+0.3  0.15  1.46  2.4389811315E+12
+0.4  0.20  1.46  1.5111618273E+12
+0.5  0.25  1.46  1.0423946205E+12
+0.6  0.30  1.46  7.6956465487E+11
+0.7  0.45  1.46  4.6225453169E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_0104_(47-Tuc)         8.53E+5    4.52   6.44  0.58
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.04  9.7418691109E+12
+0.2  0.09  2.04  2.7536346158E+12
+0.3  0.15  2.04  1.2638079746E+12
+0.4  0.20  2.04  7.8802776522E+11
+0.5  0.25  2.04  5.4605998032E+11
+0.6  0.30  2.04  4.0454888172E+11
+0.7  0.45  2.04  2.4003551517E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_0288                  9.62E+4    8.99   8.56  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.96  6.2811538533E+13
+0.2  0.09  0.96  1.7601341859E+13
+0.3  0.15  0.96  8.0611095520E+12
+0.4  0.20  0.96  4.9939226953E+12
+0.5  0.25  0.96  3.4444778376E+12
+0.6  0.30  0.96  2.5427641209E+12
+0.7  0.45  0.96  1.5277382714E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_0362                  2.52E+5    8.83   3.36  0.58
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.94  3.6647187712E+12
+0.2  0.09  1.94  1.0318116904E+12
+0.3  0.15  1.94  4.7310129268E+11
+0.4  0.20  1.94  2.9412491292E+11
+0.5  0.25  1.94  2.0337994120E+11
+0.6  0.30  1.94  1.5042820725E+11
+0.7  0.45  1.94  8.9767750496E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_1261                  1.72E+5   16.40   4.86  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.27  1.1736078172E+13
+0.2  0.09  1.27  3.2949115049E+12
+0.3  0.15  1.27  1.5097067308E+12
+0.4  0.20  1.27  9.3657967843E+11
+0.5  0.25  1.27  6.4663366728E+11
+0.6  0.30  1.27  4.7771780725E+11
+0.7  0.45  1.27  2.8625251737E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_1851                  2.83E+5   11.95   3.16  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.24  2.8707813797E+12
+0.2  0.09  2.24  8.0904434285E+11
+0.3  0.15  2.24  3.7104597764E+11
+0.4  0.20  2.24  2.3084197781E+11
+0.5  0.25  2.24  1.5970303292E+11
+0.6  0.30  2.24  1.1816935722E+11
+0.7  0.45  2.24  7.0420205755E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_1904_(M-79)           1.81E+5   13.08   4.33  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.72  9.1734374535E+12
+0.2  0.09  1.72  2.5769924869E+12
+0.3  0.15  1.72  1.1809348545E+12
+0.4  0.20  1.72  7.3294606973E+11
+0.5  0.25  1.72  5.0620248345E+11
+0.6  0.30  1.72  3.7406198968E+11
+0.7  0.45  1.72  2.2394818698E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_2298                  4.98E+4    9.83   3.20  0.50
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.28  6.8980054890E+12
+0.2  0.09  1.28  1.9335429877E+12
+0.3  0.15  1.28  8.8559112264E+11
+0.4  0.20  1.28  5.4874703069E+11
+0.5  0.25  1.28  3.7854658118E+11
+0.6  0.30  1.28  2.7948089270E+11
+0.7  0.45  1.28  1.6784877642E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_2419                  7.83E+5   88.47  26.37  0.64
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.40  3.9524274079E+14
+0.2  0.09  1.40  1.1092216106E+14
+0.3  0.15  1.40  5.0819023323E+13
+0.4  0.20  1.40  3.1517709486E+13
+0.5  0.25  1.40  2.1756035773E+13
+0.6  0.30  1.40  1.6070343772E+13
+0.7  0.45  1.40  9.6347756397E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_2808                  7.91E+5   10.06   3.75  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.77  2.4334608187E+12
+0.2  0.09  1.77  6.9113238318E+11
+0.3  0.15  1.77  3.1757841686E+11
+0.4  0.20  1.77  1.9874077525E+11
+0.5  0.25  1.77  1.3807827713E+11
+0.6  0.30  1.77  1.0250289042E+11
+0.7  0.45  1.77  6.0390717980E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_3201                  1.93E+5    4.74   8.68  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.31  4.6092515969E+13
+0.2  0.09  1.31  1.2927156988E+13
+0.3  0.15  1.31  5.9216380908E+12
+0.4  0.20  1.31  3.6707997094E+12
+0.5  0.25  1.31  2.5330058831E+12
+0.6  0.30  1.31  1.8705406193E+12
+0.7  0.45  1.31  1.1225017412E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_4147                  4.51E+4   18.54   3.47  0.49
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.80  8.7729310854E+12
+0.2  0.09  1.80  2.4586153781E+12
+0.3  0.15  1.80  1.1260283516E+12
+0.4  0.20  1.80  6.9763077557E+11
+0.5  0.25  1.80  4.8120276379E+11
+0.6  0.30  1.80  3.5524401352E+11
+0.7  0.45  1.80  2.1340926902E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_4372                  1.89E+5    5.71   8.34  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.30  3.9654521844E+13
+0.2  0.09  1.30  1.1121334595E+13
+0.3  0.15  1.30  5.0944074937E+12
+0.4  0.20  1.30  3.1579573038E+12
+0.5  0.25  1.30  2.1791006982E+12
+0.6  0.30  1.30  1.6091807578E+12
+0.7  0.45  1.30  9.6568780888E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_4590_(M-68)           1.28E+5   10.40   7.27  0.55
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.64  3.5604719405E+13
+0.2  0.09  1.64  9.9820725183E+12
+0.3  0.15  1.64  4.5721498450E+12
+0.4  0.20  1.64  2.8334847126E+12
+0.5  0.25  1.64  1.9548430023E+12
+0.6  0.30  1.64  1.4433717880E+12
+0.7  0.45  1.64  8.6661454028E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_4833                  1.86E+5    6.48   4.58  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.25  8.8232656055E+12
+0.2  0.09  1.25  2.4777590923E+12
+0.3  0.15  1.25  1.1353628547E+12
+0.4  0.20  1.25  7.0447888147E+11
+0.5  0.25  1.25  4.8645153310E+11
+0.6  0.30  1.25  3.5941575811E+11
+0.7  0.45  1.25  2.1528737391E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5024_(M-53)           5.02E+5   18.50  10.03  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.78  4.0219551452E+13
+0.2  0.09  1.78  1.1303341609E+13
+0.3  0.15  1.78  5.1804323320E+12
+0.4  0.20  1.78  3.2162719294E+12
+0.5  0.25  1.78  2.2218035786E+12
+0.6  0.30  1.78  1.6421093885E+12
+0.7  0.45  1.78  9.8250477379E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5053                  6.28E+4   17.54  17.00  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.82  4.3445483495E+14
+0.2  0.09  0.82  1.2167448378E+14
+0.3  0.15  0.82  5.5716902160E+13
+0.4  0.20  0.82  3.4502265443E+13
+0.5  0.25  0.82  2.3790105800E+13
+0.6  0.30  0.82  1.7558102412E+13
+0.7  0.45  0.82  1.0557927522E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5139_(omega-Cen)      3.94E+6    5.43  10.42  0.54
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.24  1.2427508992E+13
+0.2  0.09  1.24  3.5606629373E+12
+0.3  0.15  1.24  1.6397405433E+12
+0.4  0.20  1.24  1.0331225255E+12
+0.5  0.25  1.24  7.2133381890E+11
+0.6  0.30  1.24  5.3754605511E+11
+0.7  0.45  1.24  3.1251470686E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5272_(M-3)            4.09E+5   10.18   5.47  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.85  9.1756128967E+12
+0.2  0.09  1.85  2.5829712613E+12
+0.3  0.15  1.85  1.1842808499E+12
+0.4  0.20  1.85  7.3616635720E+11
+0.5  0.25  1.85  5.0899299519E+11
+0.6  0.30  1.85  3.7644532399E+11
+0.7  0.45  1.85  2.2469947713E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5286                  4.24E+5   11.10   3.58  0.58
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.46  3.2137441441E+12
+0.2  0.09  1.46  9.0755109906E+11
+0.3  0.15  1.46  4.1643363491E+11
+0.4  0.20  1.46  2.5947823944E+11
+0.5  0.25  1.46  1.7971312378E+11
+0.6  0.30  1.46  1.3308865183E+11
+0.7  0.45  1.46  7.9074850400E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5466                  5.61E+4   16.12  13.75  0.54
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.43  2.6390180871E+14
+0.2  0.09  1.43  7.3910905595E+13
+0.3  0.15  1.43  3.3845328583E+13
+0.4  0.20  1.43  2.0958863917E+13
+0.5  0.25  1.43  1.4451816906E+13
+0.6  0.30  1.43  1.0666162625E+13
+0.7  0.45  1.43  6.4134726590E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5634                  2.47E+5   25.96   7.72  0.47
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.60  2.6579213369E+13
+0.2  0.09  1.60  7.4587940337E+12
+0.3  0.15  1.60  3.4171949103E+12
+0.4  0.20  1.60  2.1192261691E+12
+0.5  0.25  1.60  1.4628088612E+12
+0.6  0.30  1.60  1.0804921783E+12
+0.7  0.45  1.60  6.4785540865E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5694                  2.69E+5   34.84   4.35  0.70
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.84  7.7171682268E+12
+0.2  0.09  1.84  2.1713709916E+12
+0.3  0.15  1.84  9.9544625593E+11
+0.4  0.20  1.84  6.1856170827E+11
+0.5  0.25  1.84  4.2756976888E+11
+0.6  0.30  1.84  3.1616314503E+11
+0.7  0.45  1.84  1.8884827402E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5824                  7.46E+5   31.71   6.31  0.72
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.45  1.1475614592E+13
+0.2  0.09  2.45  3.2425398071E+12
+0.3  0.15  2.45  1.4880646376E+12
+0.4  0.20  2.45  9.2760983913E+11
+0.5  0.25  2.45  6.4265801184E+11
+0.6  0.30  2.45  4.7604244436E+11
+0.7  0.45  2.45  2.8260329919E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5897                  1.67E+5   12.55  10.90  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.79  8.6971892459E+13
+0.2  0.09  0.79  2.4379246819E+13
+0.3  0.15  0.79  1.1166123312E+13
+0.4  0.20  0.79  6.9190992528E+12
+0.5  0.25  0.79  4.7731223092E+12
+0.6  0.30  0.79  3.5240319278E+12
+0.7  0.45  0.79  2.1163626818E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5904_(M-5)            3.92E+5    7.48   5.60  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.87  9.9714085723E+12
+0.2  0.09  1.87  2.8060639134E+12
+0.3  0.15  1.87  1.2864631484E+12
+0.4  0.20  1.87  7.9948661641E+11
+0.5  0.25  1.87  5.5267525301E+11
+0.6  0.30  1.87  4.0869659266E+11
+0.7  0.45  1.87  2.4406685669E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5927                  2.93E+5    8.27   5.92  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.60  1.5669002859E+13
+0.2  0.09  1.60  4.4043314481E+12
+0.3  0.15  1.60  2.0186271865E+12
+0.4  0.20  1.60  1.2534135407E+12
+0.5  0.25  1.60  8.6593272235E+11
+0.6  0.30  1.60  6.4004252195E+11
+0.7  0.45  1.60  3.8286177493E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5946                  1.13E+5    9.64   2.83  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  4.0149897089E+12
+0.2  0.09  2.50  1.1277228208E+12
+0.3  0.15  2.50  5.1677279858E+11
+0.4  0.20  2.50  3.2069978866E+11
+0.5  0.25  2.50  2.2147120721E+11
+0.6  0.30  2.50  1.6364803896E+11
+0.7  0.45  2.50  9.7995360628E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_5986                  2.99E+5   10.54   4.35  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.22  6.5879852221E+12
+0.2  0.09  1.22  1.8541419933E+12
+0.3  0.15  1.22  8.5007047575E+11
+0.4  0.20  1.22  5.2833053035E+11
+0.5  0.25  1.22  3.6525065471E+11
+0.6  0.30  1.22  2.7011102783E+11
+0.7  0.45  1.22  1.6127933811E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6093_(M-80)           3.21E+5   10.34   2.82  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.95  1.9023375067E+12
+0.2  0.09  1.95  5.3690017089E+11
+0.3  0.15  1.95  2.4632329363E+11
+0.4  0.20  1.95  1.5341550866E+11
+0.5  0.25  1.95  1.0622099410E+11
+0.6  0.30  1.95  7.8643996751E+10
+0.7  0.45  1.95  4.6766428643E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6101                  1.74E+5   14.45  13.87  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.80  1.5593789730E+14
+0.2  0.09  0.80  4.3702000326E+13
+0.3  0.15  0.80  2.0015247773E+13
+0.4  0.20  0.80  1.2400524919E+13
+0.5  0.25  0.80  8.5535134643E+12
+0.6  0.30  0.80  6.3145836495E+12
+0.7  0.45  0.80  3.7933757096E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6121_(M-4)            9.04E+4    1.85   3.95  0.63
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.59  1.0047344750E+13
+0.2  0.09  1.59  2.8181932528E+12
+0.3  0.15  1.59  1.2909847256E+12
+0.4  0.20  1.59  8.0034041104E+11
+0.5  0.25  1.59  5.5230008246E+11
+0.6  0.30  1.59  4.0787309814E+11
+0.7  0.45  1.59  2.4472476563E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6139                  3.52E+5   10.04   2.49  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.80  1.5357261805E+12
+0.2  0.09  1.80  4.3453725340E+11
+0.3  0.15  1.80  1.9948632462E+11
+0.4  0.20  1.80  1.2448400630E+11
+0.5  0.25  1.80  8.6309319568E+10
+0.6  0.30  1.80  6.3970163112E+10
+0.7  0.45  1.80  3.7898401979E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6144                  8.46E+4    8.15   4.97  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.55  1.7133574839E+13
+0.2  0.09  1.55  4.8033627146E+12
+0.3  0.15  1.55  2.2000940890E+12
+0.4  0.20  1.55  1.3634209959E+12
+0.5  0.25  1.55  9.4061661080E+11
+0.6  0.30  1.55  6.9450054829E+11
+0.7  0.45  1.55  4.1700652853E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6171_(M-107)          6.12E+4    5.63   3.72  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.51  9.2997098507E+12
+0.2  0.09  1.51  2.6069625674E+12
+0.3  0.15  1.51  1.1940508494E+12
+0.4  0.20  1.51  7.3992516160E+11
+0.5  0.25  1.51  5.1045036623E+11
+0.6  0.30  1.51  3.7687776519E+11
+0.7  0.45  1.51  2.2631663080E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6205_(M-13)           4.84E+5    7.42   5.21  0.55
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.49  7.5562914489E+12
+0.2  0.09  1.49  2.1299235158E+12
+0.3  0.15  1.49  9.7687708190E+11
+0.4  0.20  1.49  6.0784017506E+11
+0.5  0.25  1.49  4.2056450614E+11
+0.6  0.30  1.49  3.1121375283E+11
+0.7  0.45  1.49  1.8540879429E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6218_(M-12)           1.06E+5    5.11   4.08  0.51
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.38  8.7303865339E+12
+0.2  0.09  1.38  2.4490514174E+12
+0.3  0.15  1.38  1.1219132257E+12
+0.4  0.20  1.38  6.9557878107E+11
+0.5  0.25  1.38  4.8003239177E+11
+0.6  0.30  1.38  3.5451837206E+11
+0.7  0.45  1.38  2.1268030350E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6229                  2.47E+5   30.11   4.80  0.72
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.61  1.0573807937E+13
+0.2  0.09  1.61  2.9728765790E+12
+0.3  0.15  1.61  1.3626341959E+12
+0.4  0.20  1.61  8.4624735868E+11
+0.5  0.25  1.61  5.8471496850E+11
+0.6  0.30  1.61  4.3222777273E+11
+0.7  0.45  1.61  2.5845911449E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6235                  9.60E+4   11.94   5.07  0.45
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.33  1.4605917524E+13
+0.2  0.09  1.33  4.0949195054E+12
+0.3  0.15  1.33  1.8756246451E+12
+0.4  0.20  1.33  1.1623819361E+12
+0.5  0.25  1.33  8.0193957902E+11
+0.6  0.30  1.33  5.9211947035E+11
+0.7  0.45  1.33  3.5551037950E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6254_(M-10)           1.89E+5    5.07   4.75  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.40  9.7142623482E+12
+0.2  0.09  1.40  2.7278585486E+12
+0.3  0.15  1.40  1.2499513192E+12
+0.4  0.20  1.40  7.7555607632E+11
+0.5  0.25  1.40  5.3551960101E+11
+0.6  0.30  1.40  3.9566322580E+11
+0.7  0.45  1.40  2.3701321664E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6256                  1.11E+5    7.24   4.21  0.64
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  1.0717273671E+13
+0.2  0.09  2.50  3.0069497565E+12
+0.3  0.15  2.50  1.3775473431E+12
+0.4  0.20  2.50  8.5418343284E+11
+0.5  0.25  2.50  5.8954431959E+11
+0.6  0.30  2.50  4.3542774910E+11
+0.7  0.45  2.50  2.6115226838E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6266_(M-62)           5.81E+5    6.03   2.91  0.68
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.70  1.7120953368E+12
+0.2  0.09  1.70  4.8631540070E+11
+0.3  0.15  1.70  2.2347091925E+11
+0.4  0.20  1.70  1.3986133597E+11
+0.5  0.25  1.70  9.7177461954E+10
+0.6  0.30  1.70  7.2143821320E+10
+0.7  0.45  1.70  4.2496557853E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6273_(M-19)           7.19E+5    8.34   4.70  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.53  4.9681699977E+12
+0.2  0.09  1.53  1.4064850527E+12
+0.3  0.15  1.53  6.4576895970E+11
+0.4  0.20  1.53  4.0313316805E+11
+0.5  0.25  1.53  2.7958645156E+11
+0.6  0.30  1.53  2.0726746303E+11
+0.7  0.45  1.53  1.2269924871E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6284                  1.74E+5   14.21   4.04  0.63
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  7.5488440730E+12
+0.2  0.09  2.50  2.1206780317E+12
+0.3  0.15  2.50  9.7183106821E+11
+0.4  0.20  2.50  6.0317971327E+11
+0.5  0.25  2.50  4.1658730976E+11
+0.6  0.30  2.50  3.0784404094E+11
+0.7  0.45  2.50  1.8429590694E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6287                  1.30E+5    7.93   2.81  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.60  3.2922138308E+12
+0.2  0.09  1.60  9.2499100892E+11
+0.3  0.15  1.60  4.2390361496E+11
+0.4  0.20  1.60  2.6312628187E+11
+0.5  0.25  1.60  1.8174102952E+11
+0.6  0.30  1.60  1.3430749715E+11
+0.7  0.45  1.60  8.0390698089E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6293                  1.42E+5    9.19   3.18  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  4.0961154893E+12
+0.2  0.09  2.50  1.1506315648E+12
+0.3  0.15  2.50  5.2728437747E+11
+0.4  0.20  2.50  3.2724900954E+11
+0.5  0.25  2.50  2.2600682217E+11
+0.6  0.30  2.50  1.6700671363E+11
+0.7  0.45  2.50  9.9991316155E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6304                  1.03E+5    6.15   3.05  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.80  5.0943401495E+12
+0.2  0.09  1.80  1.4302008945E+12
+0.3  0.15  1.80  6.5530430237E+11
+0.4  0.20  1.80  4.0652427137E+11
+0.5  0.25  1.80  2.8066862029E+11
+0.6  0.30  1.80  2.0734913545E+11
+0.7  0.45  1.80  1.2425012625E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6316                  3.47E+5   11.15   6.08  0.71
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.55  1.5895253558E+13
+0.2  0.09  1.55  4.4708889113E+12
+0.3  0.15  1.55  2.0494664739E+12
+0.4  0.20  1.55  1.2731925819E+12
+0.5  0.25  1.55  8.7990918004E+11
+0.6  0.30  1.55  6.5054984354E+11
+0.7  0.45  1.55  3.8877524474E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6325                  6.19E+4    7.53   2.38  0.65
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  3.4849642644E+12
+0.2  0.09  2.50  9.7776081494E+11
+0.3  0.15  2.50  4.4793101799E+11
+0.4  0.20  2.50  2.7774748360E+11
+0.5  0.25  2.50  1.9169528834E+11
+0.6  0.30  2.50  1.4158199058E+11
+0.7  0.45  2.50  8.4917368388E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6333_(M-9)            3.08E+5    8.30   3.81  0.58
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.15  4.5203506349E+12
+0.2  0.09  1.15  1.2732421635E+12
+0.3  0.15  1.15  5.8386018111E+11
+0.4  0.20  1.15  3.6309545062E+11
+0.5  0.25  1.15  2.5112702966E+11
+0.6  0.30  1.15  1.8577556708E+11
+0.7  0.45  1.15  1.1079494018E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6341_(M-92)           2.73E+5    8.50   3.59  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.81  3.8675518726E+12
+0.2  0.09  1.81  1.0887905845E+12
+0.3  0.15  1.81  4.9921236534E+11
+0.4  0.20  1.81  3.1033042906E+11
+0.5  0.25  1.81  2.1457194837E+11
+0.6  0.30  1.81  1.5869850193E+11
+0.7  0.45  1.81  9.4719332067E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6342                  3.77E+4    8.01   1.86  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  2.2965499764E+12
+0.2  0.09  2.50  6.4401402983E+11
+0.3  0.15  2.50  2.9499939369E+11
+0.4  0.20  2.50  1.8285230908E+11
+0.5  0.25  2.50  1.2616757768E+11
+0.6  0.30  2.50  9.3165935209E+10
+0.7  0.45  2.50  5.5918184173E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6352                  6.02E+4    5.54   4.80  0.55
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.10  1.8456424220E+13
+0.2  0.09  1.10  5.1724298269E+12
+0.3  0.15  1.10  2.3689376229E+12
+0.4  0.20  1.10  1.4676780421E+12
+0.5  0.25  1.10  1.0123574808E+12
+0.6  0.30  1.10  7.4736546108E+11
+0.7  0.45  1.10  4.4897056397E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6355                  9.91E+4    8.65   3.34  0.65
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  6.4083381327E+12
+0.2  0.09  2.50  1.7984744798E+12
+0.3  0.15  2.50  8.2397372239E+11
+0.4  0.20  2.50  5.1102835635E+11
+0.5  0.25  2.50  3.5275442924E+11
+0.6  0.30  2.50  2.6056716309E+11
+0.7  0.45  2.50  1.5621752723E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6356                  5.65E+5   15.66   7.73  0.47
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.54  1.7159444109E+13
+0.2  0.09  1.54  4.8289306693E+12
+0.3  0.15  1.54  2.2138715231E+12
+0.4  0.20  1.54  1.3758506187E+12
+0.5  0.25  1.54  9.5111647436E+11
+0.6  0.30  1.54  7.0334347787E+11
+0.7  0.45  1.54  4.2001572495E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6362                  1.17E+5    7.65   7.24  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.10  3.6000904977E+13
+0.2  0.09  1.10  1.0091895768E+13
+0.3  0.15  1.10  4.6223124402E+12
+0.4  0.20  1.10  2.8643083977E+12
+0.5  0.25  1.10  1.9759788555E+12
+0.6  0.30  1.10  1.4589044115E+12
+0.7  0.45  1.10  8.7609547972E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6366                  4.66E+4    3.44   6.42  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.92  4.7175995440E+13
+0.2  0.09  0.92  1.3216103657E+13
+0.3  0.15  0.92  6.0523231347E+12
+0.4  0.20  0.92  3.7486698721E+12
+0.5  0.25  0.92  2.5851947040E+12
+0.6  0.30  0.92  1.9082087103E+12
+0.7  0.45  0.92  1.1469525694E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6380                  3.41E+5    9.61   4.42  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.55  6.9875002704E+12
+0.2  0.09  1.55  1.9682870070E+12
+0.3  0.15  1.55  9.0259537243E+11
+0.4  0.20  1.55  5.6133979339E+11
+0.5  0.25  1.55  3.8825172727E+11
+0.6  0.30  1.55  2.8722351020E+11
+0.7  0.45  1.55  1.7128175872E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6388                  1.31E+6   11.17   5.37  0.65
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.70  4.9826755271E+12
+0.2  0.09  1.70  1.4188506366E+12
+0.3  0.15  1.70  6.5239441285E+11
+0.4  0.20  1.70  4.0908904887E+11
+0.5  0.25  1.70  2.8463592523E+11
+0.6  0.30  1.70  2.1153950745E+11
+0.7  0.45  1.70  1.2414213954E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6397                  8.24E+4    2.48   3.16  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  5.6256135942E+12
+0.2  0.09  2.50  1.5782230665E+12
+0.3  0.15  2.50  7.2299968415E+11
+0.4  0.20  2.50  4.4828115255E+11
+0.5  0.25  2.50  3.0938038375E+11
+0.6  0.30  2.50  2.2849400193E+11
+0.7  0.45  2.50  1.3706121752E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6401                  1.21E+5    7.44   3.17  0.61
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.69  4.8506633205E+12
+0.2  0.09  1.69  1.3621339010E+12
+0.3  0.15  1.69  6.2415533745E+11
+0.4  0.20  1.69  3.8727347240E+11
+0.5  0.25  1.69  2.6741358044E+11
+0.6  0.30  1.69  1.9757704583E+11
+0.7  0.45  1.69  1.1835151232E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6402_(M-14)           5.95E+5    9.14   4.92  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.60  6.2578507872E+12
+0.2  0.09  1.60  1.7678129228E+12
+0.3  0.15  1.60  8.1123832558E+11
+0.4  0.20  1.60  5.0561249946E+11
+0.5  0.25  1.60  3.5025061731E+11
+0.6  0.30  1.60  2.5942001307E+11
+0.7  0.45  1.60  1.5405618460E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6426                  7.31E+4   20.71   7.88  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.70  5.8669411105E+13
+0.2  0.09  1.70  1.6438149899E+13
+0.3  0.15  1.70  7.5281111385E+12
+0.4  0.20  1.70  4.6632072968E+12
+0.5  0.25  1.70  3.2161172319E+12
+0.6  0.30  1.70  2.3740411382E+12
+0.7  0.45  1.70  1.4266714877E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6440                  5.69E+5    8.25   2.80  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.70  1.5817178467E+12
+0.2  0.09  1.70  4.4941047496E+11
+0.3  0.15  1.70  2.0652713230E+11
+0.4  0.20  1.70  1.2928515597E+11
+0.5  0.25  1.70  8.9843241821E+10
+0.6  0.30  1.70  6.6707141726E+10
+0.7  0.45  1.70  3.9277281235E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6441                  1.39E+6   12.73   4.30  0.66
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.85  2.6653104541E+12
+0.2  0.09  1.85  7.6242452988E+11
+0.3  0.15  1.85  3.5096639903E+11
+0.4  0.20  1.85  2.2085096214E+11
+0.5  0.25  1.85  1.5405848854E+11
+0.6  0.30  1.85  1.1472401985E+11
+0.7  0.45  1.85  6.6862248583E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6453                  1.68E+5   10.07   3.87  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  6.8258512548E+12
+0.2  0.09  2.50  1.9175855567E+12
+0.3  0.15  2.50  8.7876284786E+11
+0.4  0.20  2.50  5.4541911555E+11
+0.5  0.25  2.50  3.7669652139E+11
+0.6  0.30  2.50  2.7836704221E+11
+0.7  0.45  2.50  1.6664700334E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6496                  7.44E+4    9.64   7.01  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.70  4.3878427336E+13
+0.2  0.09  0.70  1.2295289322E+13
+0.3  0.15  0.70  5.6309701976E+12
+0.4  0.20  0.70  3.4883206143E+12
+0.5  0.25  0.70  2.4059584093E+12
+0.6  0.30  0.70  1.7760830182E+12
+0.7  0.45  0.70  1.0671678496E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6517                  2.16E+5    9.23   2.88  0.68
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.82  2.9851839200E+12
+0.2  0.09  1.82  8.4072947748E+11
+0.3  0.15  1.82  3.8551464172E+11
+0.4  0.20  1.82  2.3972457007E+11
+0.5  0.25  1.82  1.6578922213E+11
+0.6  0.30  1.82  1.2263917840E+11
+0.7  0.45  1.82  7.3154069443E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6522                  2.14E+5    7.29   3.15  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  3.4767968269E+12
+0.2  0.09  2.50  9.7846345771E+11
+0.3  0.15  2.50  4.4859081405E+11
+0.4  0.20  2.50  2.7879332909E+11
+0.5  0.25  2.50  1.9273217094E+11
+0.6  0.30  2.50  1.4252636126E+11
+0.7  0.45  2.50  8.5107513329E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6528                  9.44E+4    7.83   5.01  0.68
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.29  1.8793547121E+13
+0.2  0.09  2.29  5.2699595407E+12
+0.3  0.15  2.29  2.4139482150E+12
+0.4  0.20  2.29  1.4962072355E+12
+0.5  0.25  2.29  1.0323524375E+12
+0.6  0.30  2.29  7.6230522745E+11
+0.7  0.45  2.29  4.5756699250E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6535                  1.98E+4    6.36   3.43  0.49
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.30  1.2926200841E+13
+0.2  0.09  1.30  3.6206531254E+12
+0.3  0.15  1.30  1.6580183825E+12
+0.4  0.20  1.30  1.0268222640E+12
+0.5  0.25  1.30  7.0807018338E+11
+0.6  0.30  1.30  5.2261534829E+11
+0.7  0.45  1.30  3.1419279884E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6539                  2.15E+5    8.16   5.16  0.71
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.60  1.3555836106E+13
+0.2  0.09  1.60  3.8082915720E+12
+0.3  0.15  1.60  1.7452136152E+12
+0.4  0.20  1.60  1.0832075993E+12
+0.5  0.25  1.60  7.4812837700E+11
+0.6  0.30  1.60  5.5284675583E+11
+0.7  0.45  1.60  3.3096029739E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6540                  5.62E+4    5.91   4.49  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  1.6553626378E+13
+0.2  0.09  2.50  4.6392129059E+12
+0.3  0.15  2.50  2.1247328352E+12
+0.4  0.20  2.50  1.3163899266E+12
+0.5  0.25  2.50  9.0800831273E+11
+0.6  0.30  2.50  6.7033302090E+11
+0.7  0.45  2.50  4.0268883966E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6541                  2.57E+5    7.61   3.81  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.00  4.6519555445E+12
+0.2  0.09  2.00  1.3088406799E+12
+0.3  0.15  2.00  6.0001824250E+11
+0.4  0.20  2.00  3.7283020225E+11
+0.5  0.25  2.00  2.5770433690E+11
+0.6  0.30  2.00  1.9055298762E+11
+0.7  0.45  2.00  1.1382913764E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6544                  8.15E+4    2.58   2.24  0.61
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.63  2.4839868134E+12
+0.2  0.09  1.63  6.9744375439E+11
+0.3  0.15  1.63  3.1957120494E+11
+0.4  0.20  1.63  1.9826631177E+11
+0.5  0.25  1.63  1.3689366302E+11
+0.6  0.30  1.63  1.0113754634E+11
+0.7  0.45  1.63  6.0594627076E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6553                  2.29E+5    5.33   2.88  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.17  2.9171272821E+12
+0.2  0.09  1.17  8.2186085129E+11
+0.3  0.15  1.17  3.7689623305E+11
+0.4  0.20  1.17  2.3442924804E+11
+0.5  0.25  1.17  1.6215878176E+11
+0.6  0.30  1.17  1.1997165177E+11
+0.7  0.45  1.17  7.1525176635E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6558                  3.13E+4    7.79   1.96  0.54
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  2.6876186970E+12
+0.2  0.09  2.50  7.5339727810E+11
+0.3  0.15  2.50  3.4507211548E+11
+0.4  0.20  2.50  2.1382976531E+11
+0.5  0.25  2.50  1.4751259973E+11
+0.6  0.30  2.50  1.0891118156E+11
+0.7  0.45  2.50  6.5403543139E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6569                  2.29E+5   10.53   3.46  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.27  4.6603377659E+12
+0.2  0.09  1.27  1.3116765524E+12
+0.3  0.15  1.27  6.0137223854E+11
+0.4  0.20  1.27  3.7377337977E+11
+0.5  0.25  1.27  2.5840675158E+11
+0.6  0.30  1.27  1.9110101393E+11
+0.7  0.45  1.27  1.1409639608E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6584                  1.15E+5   13.61   5.37  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.20  1.7986712696E+13
+0.2  0.09  1.20  5.0442598964E+12
+0.3  0.15  1.20  2.3106261420E+12
+0.4  0.20  1.20  1.4322818535E+12
+0.5  0.25  1.20  9.8830208060E+11
+0.6  0.30  1.20  7.2980985866E+11
+0.7  0.45  1.20  4.3799398045E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6624                  1.03E+5    8.02   2.25  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  1.9985809807E+12
+0.2  0.09  2.50  5.6145094077E+11
+0.3  0.15  2.50  2.5729231711E+11
+0.4  0.20  2.50  1.5969069828E+11
+0.5  0.25  2.50  1.1029013780E+11
+0.6  0.30  2.50  8.1500386934E+10
+0.7  0.45  2.50  4.8792231059E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6626_(M-28)           2.70E+5    5.37   2.33  0.50
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.67  1.2534729526E+12
+0.2  0.09  1.67  3.5378253859E+11
+0.3  0.15  1.67  1.6231257050E+11
+0.4  0.20  1.67  1.0109451240E+11
+0.5  0.25  1.67  6.9996618320E+10
+0.6  0.30  1.67  5.1824929666E+10
+0.7  0.45  1.67  3.0816603100E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6637_(M-69)           1.38E+5    8.90   3.19  0.55
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.39  4.2950343131E+12
+0.2  0.09  1.39  1.2064352696E+12
+0.3  0.15  1.39  5.5284843276E+11
+0.4  0.20  1.39  3.4309912658E+11
+0.5  0.25  1.39  2.3694556417E+11
+0.6  0.30  1.39  1.7508545073E+11
+0.7  0.45  1.39  1.0483753573E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6638                  1.24E+5    9.78   2.28  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.40  2.0554519754E+12
+0.2  0.09  1.40  5.7788751590E+11
+0.3  0.15  1.40  2.6487647194E+11
+0.4  0.20  1.40  1.6449562118E+11
+0.5  0.25  1.40  1.1365699115E+11
+0.6  0.30  1.40  8.4015752847E+10
+0.7  0.45  1.40  5.0240457188E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6642                  3.95E+4    8.05   1.73  0.52
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.99  1.6997056701E+12
+0.2  0.09  1.99  4.7669801952E+11
+0.3  0.15  1.99  2.1836420768E+11
+0.4  0.20  1.99  1.3536240594E+11
+0.5  0.25  1.99  9.3405401723E+10
+0.6  0.30  1.99  6.8976591148E+10
+0.7  0.45  1.99  4.1392901888E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6652                  4.09E+4    9.46   1.85  0.50
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.80  1.9256377504E+12
+0.2  0.09  1.80  5.4002262818E+11
+0.3  0.15  1.80  2.4736722246E+11
+0.4  0.20  1.80  1.5333270665E+11
+0.5  0.25  1.80  1.0580145180E+11
+0.6  0.30  1.80  7.8128283352E+10
+0.7  0.45  1.80  4.6889818351E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6656_(M-22)           4.70E+5    3.30   5.21  0.51
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.31  7.3158942313E+12
+0.2  0.09  1.31  2.0614666750E+12
+0.3  0.15  1.31  9.4540109430E+11
+0.4  0.20  1.31  5.8810602304E+11
+0.5  0.25  1.31  4.0683646185E+11
+0.6  0.30  1.31  3.0101306945E+11
+0.7  0.45  1.31  1.7941955974E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6681_(M-70)           1.05E+5    9.36   3.04  0.51
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  4.1789837290E+12
+0.2  0.09  2.50  1.1730150603E+12
+0.3  0.15  2.50  5.3744106865E+11
+0.4  0.20  2.50  3.3336314760E+11
+0.5  0.25  2.50  2.3013593198E+11
+0.6  0.30  2.50  1.7000503015E+11
+0.7  0.45  2.50  1.0189800652E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6712                  9.50E+4    7.38   3.50  0.60
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.90  6.9919578402E+12
+0.2  0.09  0.90  1.9617669441E+12
+0.3  0.15  0.90  8.9873040283E+11
+0.4  0.20  0.90  5.5728720352E+11
+0.5  0.25  0.90  3.8463426992E+11
+0.6  0.30  0.90  2.8408634953E+11
+0.7  0.45  0.90  1.7037991027E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6715_(M-54)           1.59E+6   26.28   5.78  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.84  5.4287705697E+12
+0.2  0.09  1.84  1.5489117893E+12
+0.3  0.15  1.84  7.1254659539E+11
+0.4  0.20  1.84  4.4748310941E+11
+0.5  0.25  1.84  3.1169264248E+11
+0.6  0.30  1.84  2.3184605496E+11
+0.7  0.45  1.84  1.3565631630E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6717                  2.63E+4    7.52   3.26  0.49
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  9.8615998961E+12
+0.2  0.09  2.50  2.7627185736E+12
+0.3  0.15  2.50  1.2651936681E+12
+0.4  0.20  2.50  7.8364111838E+11
+0.5  0.25  2.50  5.4042685878E+11
+0.6  0.30  2.50  3.9890761609E+11
+0.7  0.45  2.50  2.3976295113E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6723                  1.97E+5    8.27   5.07  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.05  1.1206599484E+13
+0.2  0.09  1.05  3.1467089661E+12
+0.3  0.15  1.05  1.4418518353E+12
+0.4  0.20  1.05  8.9457945693E+11
+0.5  0.25  1.05  6.1768277278E+11
+0.6  0.30  1.05  4.5635610134E+11
+0.7  0.45  1.05  2.7339640475E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6749                  2.05E+5    7.59   6.10  0.46
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.75  1.5946682061E+13
+0.2  0.09  0.75  4.4754696161E+12
+0.3  0.15  0.75  2.0504538878E+12
+0.4  0.20  0.75  1.2717116529E+12
+0.5  0.25  0.75  8.7785165523E+11
+0.6  0.30  0.75  6.4844354600E+11
+0.7  0.45  0.75  3.8874852052E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6752                  2.61E+5    4.12   4.75  0.51
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  7.9774475154E+12
+0.2  0.09  2.50  2.2424621697E+12
+0.3  0.15  2.50  1.0277956895E+12
+0.4  0.20  2.50  6.3820746769E+11
+0.5  0.25  2.50  4.4092395602E+11
+0.6  0.30  2.50  3.2590993770E+11
+0.7  0.45  2.50  1.9493880934E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6760                  2.86E+5    8.41   5.74  0.76
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.59  1.5939194332E+13
+0.2  0.09  1.59  4.4811258740E+12
+0.3  0.15  1.59  2.0539197647E+12
+0.4  0.20  1.59  1.2755076823E+12
+0.5  0.25  1.59  8.8128577917E+11
+0.6  0.30  1.59  6.5144101563E+11
+0.7  0.45  1.59  3.8957392162E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6779_(M-56)           1.66E+5   10.43   4.42  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.37  8.9910741495E+12
+0.2  0.09  1.37  2.5244997948E+12
+0.3  0.15  1.37  1.1567372940E+12
+0.4  0.20  1.37  7.1766025950E+11
+0.5  0.25  1.37  4.9551335945E+11
+0.6  0.30  1.37  3.6608843430E+11
+0.7  0.45  1.37  2.1933208935E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6809_(M-55)           1.97E+5    5.35   6.78  0.46
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.76  2.1250837751E+13
+0.2  0.09  0.76  5.9621984026E+12
+0.3  0.15  0.76  2.7313915910E+12
+0.4  0.20  0.76  1.6936358622E+12
+0.5  0.25  0.76  1.1689051166E+12
+0.6  0.30  0.76  8.6332484294E+11
+0.7  0.45  0.76  5.1780755107E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6838_(M-71)           3.78E+4    4.00   4.81  0.54
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.15  2.3206782099E+13
+0.2  0.09  1.15  6.5013834544E+12
+0.3  0.15  1.15  2.9773269804E+12
+0.4  0.20  1.15  1.8441146415E+12
+0.5  0.25  1.15  1.2717696719E+12
+0.6  0.30  1.15  9.3873823721E+11
+0.7  0.45  1.15  5.6422456841E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6864_(M-75)           4.59E+5   20.52   2.94  0.70
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.88  2.0731278557E+12
+0.2  0.09  1.88  5.8726617537E+11
+0.3  0.15  1.88  2.6967713190E+11
+0.4  0.20  1.88  1.6843046262E+11
+0.5  0.25  1.88  1.1685209689E+11
+0.6  0.30  1.88  8.6649483453E+10
+0.7  0.45  1.88  5.1248034182E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6934                  1.50E+5   15.72   4.71  0.61
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.53  1.1777312397E+13
+0.2  0.09  1.53  3.3056449391E+12
+0.3  0.15  1.53  1.5145298715E+12
+0.4  0.20  1.53  9.3939347572E+11
+0.5  0.25  1.53  6.4848839212E+11
+0.6  0.30  1.53  4.7903828744E+11
+0.7  0.45  1.53  2.8714878169E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_6981_(M-72)           8.12E+4   16.66   5.79  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.23  2.7467006030E+13
+0.2  0.09  1.23  7.6988500735E+12
+0.3  0.15  1.23  3.5261551926E+12
+0.4  0.20  1.23  2.1848853905E+12
+0.5  0.25  1.23  1.5071881370E+12
+0.6  0.30  1.23  1.1127404779E+12
+0.7  0.45  1.23  6.6831688352E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_7006                  1.32E+5   39.32   6.59  0.61
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.42  2.9323582391E+13
+0.2  0.09  1.42  8.2230356317E+12
+0.3  0.15  1.42  3.7666643086E+12
+0.4  0.20  1.42  2.3347106410E+12
+0.5  0.25  1.42  1.6109353413E+12
+0.6  0.30  1.42  1.1895583687E+12
+0.7  0.45  1.42  7.1398286472E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_7078_(M-15)           5.18E+5   10.71   3.66  0.51
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  2.7879986214E+12
+0.2  0.09  2.50  7.8821747733E+11
+0.3  0.15  2.50  3.6177871026E+11
+0.4  0.20  2.50  2.2561662615E+11
+0.5  0.25  2.50  1.5635750226E+11
+0.6  0.30  2.50  1.1584758397E+11
+0.7  0.45  2.50  6.8716334221E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_7089_(M-2)            6.24E+5   11.69   4.76  0.55
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.80  5.1762292818E+12
+0.2  0.09  1.80  1.4627585327E+12
+0.3  0.15  1.80  6.7130741385E+11
+0.4  0.20  1.80  4.1850687545E+11
+0.5  0.25  1.80  2.8996413107E+11
+0.6  0.30  1.80  2.1479833237E+11
+0.7  0.45  1.80  1.2749390319E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_7099_(M-30)           1.21E+5    8.46   4.27  0.53
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  9.3763952441E+12
+0.2  0.09  2.50  2.6307892616E+12
+0.3  0.15  2.50  1.2052259122E+12
+0.4  0.20  2.50  7.4734175080E+11
+0.5  0.25  2.50  5.1580906446E+11
+0.6  0.30  2.50  3.8097106052E+11
+0.7  0.45  2.50  2.2848505371E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+NGC_7492                  1.97E+4   24.39  10.59  0.70
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.00  2.7602348172E+14
+0.2  0.09  1.00  7.7293720305E+13
+0.3  0.15  1.00  3.5393032873E+13
+0.4  0.20  1.00  2.1914746461E+13
+0.5  0.25  1.00  1.5109681294E+13
+0.6  0.30  1.00  1.1150996144E+13
+0.7  0.45  1.00  6.7064922861E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_1                     9.26E+2   11.18   3.43  0.65
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.50  7.2435768154E+13
+0.2  0.09  1.50  2.0281189197E+13
+0.3  0.15  1.50  9.2865163319E+12
+0.4  0.20  1.50  5.7494815924E+12
+0.5  0.25  1.50  3.9638484941E+12
+0.6  0.30  1.50  2.9251767993E+12
+0.7  0.45  1.50  1.7596088310E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_2                     2.20E+5   26.17   7.64  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.91  3.5426174545E+13
+0.2  0.09  1.91  9.9419844362E+12
+0.3  0.15  1.91  4.5549089113E+12
+0.4  0.20  1.91  2.8249051138E+12
+0.5  0.25  1.91  1.9499613584E+12
+0.6  0.30  1.91  1.4403536278E+12
+0.7  0.45  1.91  8.6356214018E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_3                     1.85E+4   94.84  27.60  0.72
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.00  3.1855390751E+15
+0.2  0.09  1.00  8.9194538461E+14
+0.3  0.15  1.00  4.0841467597E+14
+0.4  0.20  1.00  2.5286474741E+14
+0.5  0.25  1.00  1.7433498265E+14
+0.6  0.30  1.00  1.2865469716E+14
+0.7  0.45  1.00  7.7387062264E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_4                     1.53E+4  101.39  21.12  0.71
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.78  1.7775359041E+15
+0.2  0.09  0.78  4.9770908104E+14
+0.3  0.15  0.78  2.2789725622E+14
+0.4  0.20  0.78  1.4110013161E+14
+0.5  0.25  0.78  9.7280244511E+13
+0.6  0.30  0.78  7.1790421836E+13
+0.7  0.45  0.78  4.3182380307E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_5                     1.34E+4   21.94  27.63  0.58
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.74  3.2498833351E+15
+0.2  0.09  0.74  9.0994487454E+14
+0.3  0.15  0.74  4.1665461687E+14
+0.4  0.20  0.74  2.5796287884E+14
+0.5  0.25  0.74  1.7784810650E+14
+0.6  0.30  0.74  1.3124631649E+14
+0.7  0.45  0.74  7.8948018097E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_6                     8.56E+4    7.05   2.91  0.37
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.10  3.3688697351E+12
+0.2  0.09  1.10  9.4506761132E+11
+0.3  0.15  1.10  4.3294002286E+11
+0.4  0.20  1.10  2.6842648857E+11
+0.5  0.25  1.10  1.8524954109E+11
+0.6  0.30  1.10  1.3681418274E+11
+0.7  0.45  1.10  8.2072805666E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_8                     7.13E+4   11.32   6.14  0.42
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.53  2.6256740550E+13
+0.2  0.09  1.53  7.3573995443E+12
+0.3  0.15  1.53  3.3695181134E+12
+0.4  0.20  1.53  2.0873624599E+12
+0.5  0.25  1.53  1.4396846859E+12
+0.6  0.30  1.53  1.0627738169E+12
+0.7  0.45  1.53  6.3858139850E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_10                    1.25E+5    8.94   6.91  0.46
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.56  2.8180834649E+13
+0.2  0.09  1.56  7.9003912549E+12
+0.3  0.15  1.56  3.6186270208E+12
+0.4  0.20  1.56  2.2424903312E+12
+0.5  0.25  1.56  1.5470766910E+12
+0.6  0.30  1.56  1.1422751256E+12
+0.7  0.45  1.56  6.8587466878E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_11                    1.42E+4   14.02   9.75  0.78
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.69  2.8428645663E+14
+0.2  0.09  0.69  7.9605243481E+13
+0.3  0.15  0.69  3.6451225980E+13
+0.4  0.20  0.69  2.2569473400E+13
+0.5  0.25  0.69  1.5560859952E+13
+0.6  0.30  0.69  1.1483832517E+13
+0.7  0.45  0.69  6.9069552988E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_12                    6.19E+3   18.49  10.54  0.62
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.94  4.4925876127E+14
+0.2  0.09  1.94  1.2579048743E+14
+0.3  0.15  1.94  5.7598328188E+13
+0.4  0.20  1.94  3.5661023619E+13
+0.5  0.25  1.94  2.4586001795E+13
+0.6  0.30  1.94  1.8143763232E+13
+0.7  0.45  1.94  1.0913797383E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_13                    2.78E+3   23.48  15.67  0.50
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.66  1.5658372341E+15
+0.2  0.09  0.66  4.3841273610E+14
+0.3  0.15  0.66  2.0074356952E+14
+0.4  0.20  0.66  1.2428384788E+14
+0.5  0.25  0.66  8.5684259167E+13
+0.6  0.30  0.66  6.3231660972E+13
+0.7  0.45  0.66  3.8036802883E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_14                    1.91E+4   73.58  37.72  0.69
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.72  6.6549503065E+15
+0.2  0.09  0.72  1.8633476265E+15
+0.3  0.15  0.72  8.5320900343E+14
+0.4  0.20  0.72  5.2824785881E+14
+0.5  0.25  0.72  3.6419225149E+14
+0.6  0.30  0.72  2.6876287987E+14
+0.7  0.45  0.72  1.6166682100E+14
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pal_15                    5.25E+4   44.10  27.01  0.64
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.60  1.6546905481E+15
+0.2  0.09  0.60  4.6335720263E+14
+0.3  0.15  0.60  2.1217280560E+14
+0.4  0.20  0.60  1.3137390039E+14
+0.5  0.25  0.60  9.0579193337E+13
+0.6  0.30  0.60  6.6847811437E+13
+0.7  0.45  0.60  4.0203846382E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Patchick_126              5.39E+3    8.00   1.53  0.35
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.00  2.6355443887E+12
+0.2  0.09  2.00  7.3807814973E+11
+0.3  0.15  2.00  3.3797470660E+11
+0.4  0.20  2.00  2.0928009282E+11
+0.5  0.25  2.00  1.4429943073E+11
+0.6  0.30  2.00  1.0649681233E+11
+0.7  0.45  2.00  6.4042789761E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Pyxis                     3.22E+4   36.53  23.52  0.66
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.65  1.5266648565E+15
+0.2  0.09  0.65  4.2748723560E+14
+0.3  0.15  0.65  1.9574565578E+14
+0.4  0.20  0.65  1.2119841265E+14
+0.5  0.25  0.65  8.3561437709E+13
+0.6  0.30  0.65  6.1667553398E+13
+0.7  0.45  0.65  3.7090708966E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+RLGC_1                    2.80E+5   28.84  11.57  0.47
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.81  6.9003346955E+13
+0.2  0.09  1.81  1.9353424409E+13
+0.3  0.15  1.81  8.8654411681E+12
+0.4  0.20  1.81  5.4957929779E+12
+0.5  0.25  1.81  3.7923975636E+12
+0.6  0.30  1.81  2.8005988785E+12
+0.7  0.45  1.81  1.6805415668E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+RLGC_2                    2.70E+5   15.85   5.00  0.45
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.48  8.2201835092E+12
+0.2  0.09  2.48  2.3101844862E+12
+0.3  0.15  2.48  1.0587775243E+12
+0.4  0.20  2.48  6.5733707072E+11
+0.5  0.25  2.48  4.5408654529E+11
+0.6  0.30  2.48  3.3560870909E+11
+0.7  0.45  2.48  2.0080395358E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Rup_106                   3.40E+4   20.71  11.14  0.56
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.70  2.0534166527E+14
+0.2  0.09  0.70  5.7505639326E+13
+0.3  0.15  0.70  2.6332531727E+13
+0.4  0.20  0.70  1.6305620494E+13
+0.5  0.25  0.70  1.1242806527E+13
+0.6  0.30  0.70  8.2975001531E+12
+0.7  0.45  0.70  4.9897523514E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Sagittarius_II            3.05E+4   66.53  39.44  0.65
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.27  5.6565200144E+15
+0.2  0.09  1.27  1.5838260246E+15
+0.3  0.15  1.27  7.2522245449E+14
+0.4  0.20  1.27  4.4901440902E+14
+0.5  0.25  1.27  3.0956939654E+14
+0.6  0.30  1.27  2.2845478575E+14
+0.7  0.45  1.27  1.3741652527E+14
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_1                     1.99E+5    5.67   1.86  0.74
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  1.0754252225E+12
+0.2  0.09  2.50  3.0364783873E+11
+0.3  0.15  2.50  1.3932454615E+11
+0.4  0.20  2.50  8.6802077730E+10
+0.5  0.25  2.50  6.0113366994E+10
+0.6  0.30  2.50  4.4514663871E+10
+0.7  0.45  2.50  2.6454688128E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_2                     8.05E+4    7.75   4.31  0.84
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  1.6068668659E+13
+0.2  0.09  2.50  4.5063017293E+12
+0.3  0.15  2.50  2.0641972687E+12
+0.4  0.20  2.50  1.2795170591E+12
+0.5  0.25  2.50  8.8288573257E+11
+0.6  0.30  2.50  6.5196213303E+11
+0.7  0.45  2.50  3.9128062547E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_3                     3.25E+4    7.64   6.24  0.66
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.70  5.4932084160E+13
+0.2  0.09  0.70  1.5386556526E+13
+0.3  0.15  0.70  7.0460171643E+12
+0.4  0.20  0.70  4.3636423017E+12
+0.5  0.25  0.70  3.0090529139E+12
+0.6  0.30  0.70  2.2209327686E+12
+0.7  0.45  0.70  1.3352125898E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_4                     1.81E+5    7.59   5.67  0.67
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.60  1.8133309404E+13
+0.2  0.09  1.60  5.0900630043E+12
+0.3  0.15  1.60  2.3321348345E+12
+0.4  0.20  1.60  1.4466058014E+12
+0.5  0.25  1.60  9.9867471696E+11
+0.6  0.30  1.60  7.3774582347E+11
+0.7  0.45  1.60  4.4217254791E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_5                     1.09E+6    6.62   4.03  0.80
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.74  2.9731631050E+12
+0.2  0.09  1.74  8.4886006223E+11
+0.3  0.15  1.74  3.9056734836E+11
+0.4  0.20  1.74  2.4540595067E+11
+0.5  0.25  1.74  1.7100148173E+11
+0.6  0.30  1.74  1.2723344742E+11
+0.7  0.45  1.74  7.4369970143E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_6                     1.00E+5    7.27   1.91  0.74
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  1.6886529876E+12
+0.2  0.09  2.50  4.7482396515E+11
+0.3  0.15  2.50  2.1764391990E+11
+0.4  0.20  2.50  1.3517597563E+11
+0.5  0.25  2.50  9.3405276926E+10
+0.6  0.30  2.50  6.9049262836E+10
+0.7  0.45  2.50  4.1282956092E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_7                     2.23E+4   24.28  12.18  0.78
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.08  3.9556992321E+14
+0.2  0.09  1.08  1.1077016805E+14
+0.3  0.15  1.08  5.0722040696E+13
+0.4  0.20  1.08  3.1406273142E+13
+0.5  0.25  1.08  2.1653892650E+13
+0.6  0.30  1.08  1.5980666668E+13
+0.7  0.45  1.08  9.6111356732E+12
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_8                     7.59E+4   27.54  21.24  0.57
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.60  6.9778770550E+14
+0.2  0.09  0.60  1.9542263104E+14
+0.3  0.15  0.60  8.9487317333E+13
+0.4  0.20  0.60  5.5414021604E+13
+0.5  0.25  0.60  3.8209087975E+13
+0.6  0.30  0.60  2.8199832707E+13
+0.7  0.45  0.60  1.6957131032E+13
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_9                     1.37E+5    5.77   2.58  0.71
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.50  2.9761719036E+12
+0.2  0.09  2.50  8.3685616592E+11
+0.3  0.15  2.50  3.8358787809E+11
+0.4  0.20  2.50  2.3824197954E+11
+0.5  0.25  2.50  1.6462299719E+11
+0.6  0.30  2.50  1.2169658197E+11
+0.7  0.45  2.50  7.2759427014E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_10                    3.19E+5   10.21   4.67  0.50
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.14  6.7661344679E+12
+0.2  0.09  2.14  1.9036664795E+12
+0.3  0.15  2.14  8.7270665645E+11
+0.4  0.20  2.14  5.4226825256E+11
+0.5  0.25  2.14  3.7482132256E+11
+0.6  0.30  2.14  2.7715193570E+11
+0.7  0.45  2.14  1.6556061533E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ter_12                    3.76E+4    5.17   2.71  0.78
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  0.57  7.0450470298E+12
+0.2  0.09  0.57  1.9748357931E+12
+0.3  0.15  0.57  9.0451241005E+11
+0.4  0.20  0.57  5.6048748782E+11
+0.5  0.25  0.57  3.8665351005E+11
+0.6  0.30  0.57  2.8547070438E+11
+0.7  0.45  0.57  1.7143663308E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+Ton_2                     4.31E+4    6.99   4.26  0.66
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.30  1.8300819898E+13
+0.2  0.09  1.30  5.1281249903E+12
+0.3  0.15  1.30  2.3485681410E+12
+0.4  0.20  1.30  1.4549115601E+12
+0.5  0.25  1.30  1.0034794979E+12
+0.6  0.30  1.30  7.4077069582E+11
+0.7  0.45  1.30  4.4509504304E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+UKS_1                     8.00E+4   15.58   4.07  0.40
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  2.10  8.5407144724E+12
+0.2  0.09  2.10  2.3944713137E+12
+0.3  0.15  2.10  1.0967557821E+12
+0.4  0.20  2.10  6.7969182330E+11
+0.5  0.25  2.10  4.6892594709E+11
+0.6  0.30  2.10  3.4623543789E+11
+0.7  0.45  2.10  2.0788158342E+11
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+VVV-CL001                 1.54E+5    8.08   3.23  0.42
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.81  3.5035078243E+12
+0.2  0.09  1.81  9.8412566130E+11
+0.3  0.15  1.81  4.5097772403E+11
+0.4  0.20  1.81  2.7988274991E+11
+0.5  0.25  1.81  1.9329048473E+11
+0.6  0.30  1.81  1.4282889164E+11
+0.7  0.45  1.81  8.5520124575E+10
+ #
+ # namecluster # M_tot(sm) # distanceSun(kpc) # half_mass_r(pc) # m_mean(sm)
+VVV-CL160                 5.28E+4    6.80   4.50  0.41
+ # m_test(sm) # orbital radius (au) # compactness(0 for no data) # dest-Time (yr)
+0.1  0.04  1.38  1.3806841454E+13
+0.2  0.09  1.38  3.8688214130E+12
+0.3  0.15  1.38  1.7718311691E+12
+0.4  0.20  1.38  1.0976225384E+12
+0.5  0.25  1.38  7.5704721186E+11
+0.6  0.30  1.38  5.5885193064E+11
+0.7  0.45  1.38  3.3579251282E+11

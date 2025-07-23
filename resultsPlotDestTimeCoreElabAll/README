@@ -1,0 +1,6 @@
+I this subfolder there will be the elaboration of the results of the calculated times 
+for half-mass radius mediated quantities of all (or quite a bit less) 166 GCs present
+in Baumgardt database online (see global README).
+We first do a calculus of time but now the results are themself the data (with an
+opportune format and extension ".risdat") there are going to be elaborated to do, for example, 
+calculus of correlation with the compactness index or other quantities. 
