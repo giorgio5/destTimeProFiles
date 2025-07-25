@@ -1,0 +1,18 @@
+Analizzando i files .resdat in questa cartella si vede che nei primi due files il tempo di 
+destabilizzazione delle orbite (a prima vista e al momento solo per i primi casi) è dell'ordine 
+di 10^13 anni a scendere quando la massa di test inizia a crescere: questo perché a causa 
+dell'aumentare della massa la zona abitabile si allontana e quindi aumenta il raggio orbitale 
+a cui si trova il pianeta che è candidato ad ospitare la vita. Però se aumenta il raggio orbitale 
+aumenta la distanza di destabilizzazione, che fa da parametro d'impatto nella formula che calcola il
+tempo di cattura. Comunque anche se il pianeta resta legato per un certo periodo di tempo, a causa 
+del fatto che la cattura è un processo che riguarda essenzialmente gli encounters tra stelle nel GC, 
+contro ciò che si aspetterebbe, cioè che una stella di test di massa alta sarebbe maggiormente 
+propensa a "tenersi stretto" il suo pianeta più a lungo di una stella leggera, accade il contrario,
+proprio perché nel processo di cattura del pianeta da parte di una stella di massa media, aumentando 
+il parametro d'impatto aumenta la probabilità che il pianeta sia strappato dalla massa di test.
+
+Quindi riassumendo se il pianeta orbita in una zona abitabile di una stella con massa maggiore della media
+allora aumenta il raggio orbitale, cosa che fa aumentare la distanza minima di destabilizzazione, la quale 
+fungendo da parametro d'impatto aumentando aumenta la probabilità di cattura in un ambiente così 
+denso di stelle come un GC.
+
