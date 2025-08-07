@@ -16,3 +16,23 @@ allora aumenta il raggio orbitale, cosa che fa aumentare la distanza minima di d
 fungendo da parametro d'impatto aumentando aumenta la probabilità di cattura in un ambiente così 
 denso di stelle come un GC.
 
+Risposta FDP del 28/07/2025
+
+Sono sostanzialmente d'accordo che all'aumentare della massa della stella il tempo di cattura possa diminuire per 
+i pianeti nella zona abitabile. Distinguerei due zone: sistemi all'interno del raggio del core dell'ammasso e sistemi
+all'esterno. Poi andrei a vedere quale è la probabilità che ci sia una cattura in 10^10 anni, semplicemente andando 
+a vedere il numero di casi in cui t<10 Gyr rispetto a tutti gli altri. Bisogna pensarci un po' perchè può essere che
+così sia troppo smeplificato. Ma comunque penso che sia interessante dare un qualche tipo di stima sulla probabilità 
+che il pianeta resti o meno attorno alla sua stella madre in funzione della massa della stella e di dove si trovi nel 
+cluster.
+
+NOTA mia del 07/08/2025
+
+Nel calcolo del dest_time_bh OVVIAMENTE i risultati non variano se cambia la massa della stella di test i_m
+e quindi il raggio orbitale dell'esopianeta: questo perché nella formula non c'è proprio nella formula in 
+quanto il ruolo del parametro d'impatto lo fa il raggio d'influenza del IMBH centrale. Questo perché ho fatto una
+stima preventiva (vedi ultima pagina degli appunti sulle funzioni) per vedere se fosse più rilevante il raggio
+orbitale del raggio d'influenza (Peebles 1972) e dalle stime (rifarle per sicurezza!) viene che r_inf >> r_orb
+
+
+

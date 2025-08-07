@@ -45,7 +45,7 @@ c      initialization of constants
 c      declaration of test string equal for repetitive output   
        b2 = "  "
          
-c 00 is format for  parameters file "BaumgardtGlobularParameter_new.dat":
+c 10 is format for  parameters file "BaumgardtGlobularParameter_new.dat":
 c namecluster,b2,dist_sun_kpc,b2,m_tot_sm,b2,r_half_m_pc,b2,m_mean_sm,
 c b2,comp_cox,b2,comp_calc
   10    format (a24,a2,f6.2,a2,f6.2,a2,f5.2,a2,f4.2,a2,f4.2,a2,f4.2)
@@ -307,6 +307,9 @@ c for r_inf
  
        
       real*8 function t_bh(m_tot_smf,r_hm_pcf,m_bh_smf,m_test_smf)
+      ! e ci credo che non conta i_m o il raggio orbitale 
+      ! perché nella formula il parametro d'impatto è
+      ! dato solo da r_inf_bh !!
       implicit none
       real*8  km,sm,ggg,au,yr,pi,pc
       common /a/ km,sm,ggg,au,yr,pi,pc
