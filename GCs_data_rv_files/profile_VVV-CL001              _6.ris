@@ -1,0 +1,10 @@
+ # The time vs radius profile for the
+ # globular cluser :VVV-CL001              
+ # for mass star test (sm) =  0.60000002384185791     
+ #
+ #  for generic radii
+ #  radius(pc) time (year)
+  0.24          645559375.77
+  0.60         3931785294.78
+  0.83         7619580373.34
+  1.19        22202897625.48

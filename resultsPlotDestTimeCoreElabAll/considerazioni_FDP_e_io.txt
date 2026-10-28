@@ -1,0 +1,35 @@
+Analizzando i files .risdat in questa cartella si vede che nei primi due files il tempo di 
+destabilizzazione delle orbite (a prima vista e al momento solo per i primi casi) è dell'ordine 
+di 10^13 anni a scendere quando la massa di test inizia a crescere: questo perché a causa 
+dell'aumentare della massa la zona abitabile si allontana e quindi aumenta il raggio orbitale 
+a cui si trova il pianeta che è candidato ad ospitare la vita. Però se aumenta il raggio orbitale 
+aumenta la distanza di destabilizzazione, che fa da parametro d'impatto nella formula che calcola il
+tempo di cattura. Comunque anche se il pianeta resta legato per un certo periodo di tempo, a causa 
+del fatto che la cattura è un processo che riguarda essenzialmente gli encounters tra stelle nel GC, 
+contro ciò che si aspetterebbe, cioè che una stella di test di massa alta sarebbe maggiormente 
+propensa a "tenersi stretto" il suo pianeta più a lungo di una stella leggera, accade il contrario,
+proprio perché nel processo di cattura del pianeta da parte di una stella di massa media, aumentando 
+il parametro d'impatto aumenta la probabilità che il pianeta sia strappato dalla massa di test.
+
+Quindi riassumendo se il pianeta orbita in una zona abitabile di una stella con massa maggiore della media allora aumenta il raggio orbitale, cosa che fa aumentare la distanza minima di destabilizzazione, la quale fungendo da parametro d'impatto aumentando aumenta la probabilità di cattura in un ambiente così 
+denso di stelle come un GC.
+
+Risposta FDP del 28/07/2025
+
+Sono sostanzialmente d'accordo che all'aumentare della massa della stella il tempo di cattura possa diminuire per i pianeti nella zona abitabile. 
+
+Distinguerei due zone: sistemi all'interno del raggio del core dell'ammasso e sistemi
+all'esterno. 
+
+Poi andrei a vedere quale è la probabilità che ci sia una cattura in 10^10 anni, semplicemente andando a vedere il numero di casi in cui t<10 Gyr rispetto a tutti gli altri. Bisogna pensarci un po' perchè può essere che così sia troppo semplificato. Ma comunque penso che sia interessante dare un qualche tipo di stima sulla probabilità che il pianeta resti o meno attorno alla sua stella madre in funzione della massa della stella e di dove si trovi nel cluster.
+
+NOTA mia del 12/08/2025
+
+Nel calcolo del dest_time_bh ho fatto una stima preventiva (vedi stima_r-inf_IMBH_molto_maggiore_r-orb.ods) per vedere se fosse più rilevante il raggio orbitale del raggio d'influenza dell'IMBH al centro (Peebles 1972) e dalle stime viene che r_inf >> r_orb e che quindi è meglio prendere come parametro d'impatto direttamente r_inf.
+Comunque i tempi differiscono per esempio nella terza cifra dopo la virgola su una precisione a 9 cifre: in pratica per esempio nel primo cluster per 10^5 anni su 10^8 anni totali.
+Ciò per via del fatto che compare m_test nella massa ridotta 
+per il calcolo del dest-time_bh.
+Forse sarebbe il caso di stimare la varianza della differenza in percentuale per i diversi valori di i_m nel caso dello stesso valore della massa del IMBH. 
+
+
+

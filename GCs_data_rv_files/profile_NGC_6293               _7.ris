@@ -1,0 +1,13 @@
+ # The time vs radius profile for the
+ # globular cluser :NGC_6293               
+ # for mass star test (sm) =  0.69999998807907104     
+ #
+ #  for generic radii
+ #  radius(pc) time (year)
+  0.26          477285797.80
+  0.60         2736227679.03
+  0.99         7473746705.20
+  1.32        17722140024.03
+  1.96        32355904715.87
+  3.55       146656450600.83
+  5.35       349512685909.10
